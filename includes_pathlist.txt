@@ -1,0 +1,15 @@
+C:\Users\javor\OneDrive\Dokumentumok\uVisionProj\STM32F4xx_Ethernet_Example\Libraries\CMSIS\Include
+C:\Users\javor\OneDrive\Dokumentumok\uVisionProj\STM32F4xx_Ethernet_Example\Libraries\STM32F4x7_ETH_Driver\inc
+C:\Users\javor\OneDrive\Dokumentumok\uVisionProj\STM32F4xx_Ethernet_Example\Libraries\STM32F4xx_StdPeriph_Driver\inc
+C:\Users\javor\OneDrive\Dokumentumok\uVisionProj\STM32F4xx_Ethernet_Example\Utilities\STM32F4-Discovery
+C:\Users\javor\OneDrive\Dokumentumok\uVisionProj\STM32F4xx_Ethernet_Example\Utilities\lwip_v1.3.2\port\STM32F4x7\Standalone
+C:\Users\javor\OneDrive\Dokumentumok\uVisionProj\STM32F4xx_Ethernet_Example\Utilities\lwip_v1.3.2\port\STM32F4x7
+C:\Users\javor\OneDrive\Dokumentumok\uVisionProj\STM32F4xx_Ethernet_Example\Utilities\lwip_v1.3.2\src\include
+C:\Users\javor\OneDrive\Dokumentumok\uVisionProj\STM32F4xx_Ethernet_Example\Utilities\lwip_v1.3.2\src\include\ipv4
+C:\Users\javor\OneDrive\Dokumentumok\uVisionProj\STM32F4xx_Ethernet_Example\Utilities\lwip_v1.3.2\src\include\lwip
+C:\Users\javor\OneDrive\Dokumentumok\uVisionProj\STM32F4xx_Ethernet_Example\Utilities\lwip_v1.3.2\src\include\netif
+C:\Users\javor\OneDrive\Dokumentumok\uVisionProj\inc
+C:\Users\javor\OneDrive\Dokumentumok\uVisionProj\src
+C:\Users\javor\OneDrive\Dokumentumok\uVisionProj\platform
+
+C:\Program Files (x86)\GNU Tools Arm Embedded\7 2018-q2-update\arm-none-eabi\include

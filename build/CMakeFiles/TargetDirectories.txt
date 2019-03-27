@@ -1,0 +1,3 @@
+/home/zolikazi/source/standalone_disp/build/CMakeFiles/rebuild_cache.dir
+/home/zolikazi/source/standalone_disp/build/CMakeFiles/standalone_disp.dir
+/home/zolikazi/source/standalone_disp/build/CMakeFiles/edit_cache.dir
