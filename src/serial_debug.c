@@ -29,13 +29,13 @@
 #ifdef SERIAL_DEBUG
 
 static void uart_putc(void *p, char ch){
-  /* Place your implementation of fputc here */
-  /* e.g. write a character to the USART */
-  USART_SendData(EVAL_COM1, (uint8_t) ch);
+    /* Place your implementation of fputc here */
+    /* e.g. write a character to the USART */
+    USART_SendData(EVAL_COM1, (uint8_t) ch);
 
-  /* Loop until the end of transmission */
-  while (USART_GetFlagStatus(EVAL_COM1, USART_FLAG_TC) == RESET)
-  {}
+    /* Loop until the end of transmission */
+    while (USART_GetFlagStatus(EVAL_COM1, USART_FLAG_TC) == RESET)
+    {}
 
 }
 
@@ -62,27 +62,27 @@ static void uart_putc(void *p, char ch){
   */
 void DebugComPort_Init(void)
 {
-  USART_InitTypeDef USART_InitStructure;
+    USART_InitTypeDef USART_InitStructure;
 
 
-  /* USARTx configured as follow:
+    /* USARTx configured as follow:
         - BaudRate = 115200 baud
         - Word Length = 8 Bits
         - One Stop Bit
         - No parity
         - Hardware flow control disabled (RTS and CTS signals)
         - Receive and transmit enabled
-  */
-  USART_InitStructure.USART_BaudRate = 115200;
-  USART_InitStructure.USART_WordLength = USART_WordLength_8b;
-  USART_InitStructure.USART_StopBits = USART_StopBits_1;
-  USART_InitStructure.USART_Parity = USART_Parity_No;
-  USART_InitStructure.USART_HardwareFlowControl = USART_HardwareFlowControl_None;
-  USART_InitStructure.USART_Mode = USART_Mode_Rx | USART_Mode_Tx;
+    */
+    USART_InitStructure.USART_BaudRate = 115200;
+    USART_InitStructure.USART_WordLength = USART_WordLength_8b;
+    USART_InitStructure.USART_StopBits = USART_StopBits_1;
+    USART_InitStructure.USART_Parity = USART_Parity_No;
+    USART_InitStructure.USART_HardwareFlowControl = USART_HardwareFlowControl_None;
+    USART_InitStructure.USART_Mode = USART_Mode_Rx | USART_Mode_Tx;
 
-  STM_EVAL_COMInit(COM1, &USART_InitStructure);
+    STM_EVAL_COMInit(COM1, &USART_InitStructure);
 
-  init_printf(NULL, uart_putc);
+    init_printf(NULL, uart_putc);
 }
 
 /**
@@ -92,15 +92,15 @@ void DebugComPort_Init(void)
   */
 PUTCHAR_PROTOTYPE
 {
-  /* Place your implementation of fputc here */
-  /* e.g. write a character to the USART */
-  USART_SendData(EVAL_COM1, (uint8_t) ch);
+    /* Place your implementation of fputc here */
+    /* e.g. write a character to the USART */
+    USART_SendData(EVAL_COM1, (uint8_t) ch);
 
-  /* Loop until the end of transmission */
-  while (USART_GetFlagStatus(EVAL_COM1, USART_FLAG_TC) == RESET)
-  {}
+    /* Loop until the end of transmission */
+    while (USART_GetFlagStatus(EVAL_COM1, USART_FLAG_TC) == RESET)
+    {}
 
-  return ch;
+    return ch;
 }
 #endif /* SERIAL_DEBUG */
 

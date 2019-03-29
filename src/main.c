@@ -1,7 +1,7 @@
 /**
   ******************************************************************************
   * @file    main.c
-  * @author  MCD Application Team
+  * @author  MCD Application Team && Istvan Moldovan && Zoltan Javorszky
   * @version V1.0.0
   * @date    31-October-2011
   * @brief   Main program body
@@ -50,10 +50,11 @@
 #include "packetizer.h"
 #include "ethernetif.h"
 #include "stm32f4xx_tim.h"
+#include "stm32f4xx_usart.h"
 
 #define	IMAGE_Y 			96
 #define IMAGE_X				154
-#define IMAGE_SIZE		IMAGE_X*IMAGE_Y/8
+#define IMAGE_SIZE          IMAGE_X*IMAGE_Y/8
 
 
 uint8_t d[12]={0xF0, 0x0F, 0x00, 0xF0, 0x0F, 0x00, 0x55, 0x00, 0xAA, 0x55, 0xAA, 0x55};
@@ -1348,21 +1349,48 @@ __IO uint32_t NextSec = 0; /* this variable is used to measure seconds */
 /* Private function prototypes -----------------------------------------------*/
 void LCD_LED_BUTTON_Init(void);
 uint8_t Button_State(void);
+void USART_puts(USART_TypeDef *USARTx, volatile char *str);
 
 
+#define PWM_PERIOD      20000
+#define PWM_PULSE       1500
+#define PWM_PULSE_MAX   2000
+#define PWM_PULSE_MIN   1000
 
-#define PWM_PERIOD	20000
-#define PWM_PULSE 	1500
-#define PWM_PULSE_MAX 2000
-#define PWM_PULSE_MIN 1000
 
-/* TIM3 init function */
+/**
+  * @brief  Initializes PA3, PA8 and PA10 GPIO pins
+  * @param  None
+  * @retval None
+  */
+void InitializeGpio(void)
+{
+    /* Configure the photo sensor pin
+       in this case we will use PA3 */
+    /* PA8 and PA10 is for additional buttons */
+    GPIO_InitTypeDef GPIO_InitStruct;
+    
+    GPIO_InitStruct.GPIO_Pin = GPIO_Pin_3|GPIO_Pin_8|GPIO_Pin_10;
+    GPIO_InitStruct.GPIO_Mode = GPIO_Mode_IN;
+    GPIO_InitStruct.GPIO_OType = GPIO_OType_PP;
+    GPIO_InitStruct.GPIO_Speed = GPIO_Speed_50MHz;
+    GPIO_InitStruct.GPIO_PuPd = GPIO_PuPd_UP;
+    
+    GPIO_Init(GPIOA, &GPIO_InitStruct);
+}
+
+
+/**
+  * @brief  TIM3 timer initialization function
+  * @param  period: timer period in usec
+  * @retval None
+  */
 void InitializeTimer(int period)
 {
     RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM3, ENABLE);
 
     TIM_TimeBaseInitTypeDef timerInitStructure;
-		/* timer freq is 84000000 */
+    /* timer freq is 84000000 */
     timerInitStructure.TIM_Prescaler = 71;  // get 1 MHz timer frequency
     timerInitStructure.TIM_CounterMode = TIM_CounterMode_Up;
     timerInitStructure.TIM_Period = period;
@@ -1372,6 +1400,12 @@ void InitializeTimer(int period)
     TIM_Cmd(TIM3, ENABLE);
 }
 
+
+/**
+  * @brief  PWM1 channel initialization and PB4 init for it
+  * @param  width: width of PWM signal in usec
+  * @retval None
+  */
 void InitializePWMChannel(int width)
 {
     TIM_OCInitTypeDef outputChannelInit = {0,};
@@ -1383,14 +1417,20 @@ void InitializePWMChannel(int width)
     TIM_OC1Init(TIM3, &outputChannelInit);
     TIM_OC1PreloadConfig(TIM3, TIM_OCPreload_Enable);
 
-		GPIO_InitTypeDef gpioStructure;
-    gpioStructure.GPIO_Pin = GPIO_Pin_4;
+    GPIO_InitTypeDef gpioStructure;
+    gpioStructure.GPIO_Pin = GPIO_Pin_4;        //PB4 gives the PWM signal
     gpioStructure.GPIO_Mode = GPIO_Mode_AF;
     gpioStructure.GPIO_Speed = GPIO_Speed_50MHz;
     GPIO_Init(GPIOB, &gpioStructure);
     GPIO_PinAFConfig(GPIOB, GPIO_PinSource4, GPIO_AF_TIM3);
 }
 
+
+/**
+  * @brief  Set the width of PWM signal using PWM1 channel a TIM3 timer
+  * @param  width: width of PWM signal in usec
+  * @retval None
+  */
 void SetPWMPulsewidth(int width)
 {
 	TIM_OCInitTypeDef outputChannelInit = {0,};
@@ -1401,6 +1441,60 @@ void SetPWMPulsewidth(int width)
 
 	TIM_OC1Init(TIM3, &outputChannelInit);
 	TIM_OC1PreloadConfig(TIM3, TIM_OCPreload_Enable);
+}
+
+
+/**
+  * @brief  USART and interrupt initialization 
+  * @param  None
+  * @retval None
+  */
+void InitializeUsart(void)
+{
+    USART_InitTypeDef USART_InitStructure;  //USART initialization
+    NVIC_InitTypeDef NVIC_InitStructure;    //Interrupt initialization
+    GPIO_InitTypeDef GPIO_InitStructure;    //Port initialization
+    
+    //Enable the GPIOC clock for UART4
+    RCC_APB1PeriphClockCmd(RCC_APB1Periph_UART4, ENABLE);
+    
+    //Enable the GPIOC clock for serial communication
+    RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOC, ENABLE);
+    
+    // PC10 and PC11 pins are used for UART4f
+    //Setup for GPIOC pins for serial communication
+	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_10 | GPIO_Pin_11;
+	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF;
+	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+	GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;
+	GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_UP;
+	GPIO_Init(GPIOC, &GPIO_InitStructure);
+
+	//Assign GPIOC pins to UART4 alternate functions
+	GPIO_PinAFConfig(GPIOC, GPIO_PinSource10, GPIO_AF_UART4);/* UART4_TX */
+    GPIO_PinAFConfig(GPIOC, GPIO_PinSource11, GPIO_AF_UART4);/* UART4_RX */
+    
+    //serial communication controls
+	USART_InitStructure.USART_BaudRate = 9600;
+	USART_InitStructure.USART_WordLength = USART_WordLength_8b;
+	USART_InitStructure.USART_StopBits = USART_StopBits_1;
+	USART_InitStructure.USART_Parity = USART_Parity_No;
+	USART_InitStructure.USART_HardwareFlowControl = USART_HardwareFlowControl_None;
+	USART_InitStructure.USART_Mode = USART_Mode_Tx | USART_Mode_Rx;
+    USART_Init(UART4, &USART_InitStructure);
+    
+    //UART4_IRQHandler() interrupt and configure
+    USART_ITConfig(UART4, USART_IT_RXNE, ENABLE);
+    
+    
+	NVIC_InitStructure.NVIC_IRQChannel = UART4_IRQn;
+	NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0;
+	NVIC_InitStructure.NVIC_IRQChannelSubPriority = 0;
+	NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
+	NVIC_Init(&NVIC_InitStructure);
+
+	// Finally enable the UART4 peripheral
+    USART_Cmd(UART4, ENABLE);
 }
 
 /* Private functions ---------------------------------------------------------*/
@@ -1429,196 +1523,194 @@ int main(void)
        system_stm32f4xx.c file
      */
 
-		 struct pbuf *frame;
-     uint8_t data[1500];
+    struct pbuf *frame;
+    uint8_t data[1500];
 
-//  int i=0, j=0;
-  uint8_t *img;
-  int sel_img;
-  int col_per_frame=1;
-  int recvd = 0;
-	int pulse_width = PWM_PULSE;
+    //  int i=0, j=0;
+    uint8_t *img;
+    int sel_img;
+    int col_per_frame=1;
+    int recvd = 0;
+    int pulse_width = PWM_PULSE;
 
 
-  #ifdef SERIAL_DEBUG
-       DebugComPort_Init();
-  #endif
+    #ifdef SERIAL_DEBUG
+        DebugComPort_Init();
+    #endif
 
-	int r=0;
-	int blue_flag=0;
+    int r=0;
+    int blue_flag=0;
 
-  /*Initialize LCD and Leds */
-  LCD_LED_BUTTON_Init();
+    /*Initialize LCD and Leds */
+    LCD_LED_BUTTON_Init();
 
-  /* Configure ethernet (GPIOs, clocks, MAC, DMA) */
-  ETH_BSP_Config();
+    /* Configure ethernet (GPIOs, clocks, MAC, DMA) */
+    ETH_BSP_Config();
 
-  /* Initilaize the LwIP stack */
-  LwIP_Init();
+    /* Initilaize the LwIP stack */
+    LwIP_Init();
 
-  Pov_SPI_Init();
+    Pov_SPI_Init();
+    
+    /* GPIO init */
+    InitializeGpio();
 
-/*
-//uint8_t tmp;
-  while(1){
-    Pov_Send_Column(R);
-    Delay(1000);
+    /* USART initialization*/
+    InitializeUsart();
 
-    Pov_Send_Column(G);
-    Delay(1000);
+    /*
+    //uint8_t tmp;
+    while(1){
+        Pov_Send_Column(R);
+        Delay(1000);
 
-		Pov_Send_Column(B);
-		Delay(1000);
+        Pov_Send_Column(G);
+        Delay(1000);
 
-		Pov_Send_Column(black);
-		Delay(1000);
-//    tmp=d[0];
-//    for(i=0; i<11; i++)
-//      d[i] = d[i+1];
-//    d[11]=tmp;
-  }
+        Pov_Send_Column(B);
+        Delay(1000);
 
+        Pov_Send_Column(black);
+        Delay(1000);
+    //  tmp=d[0];
+    //  for(i=0; i<11; i++)
+    //      d[i] = d[i+1];
+    //  d[11]=tmp;
+    }
 
 	udp_packetizer_init();
-*/
+    */
 
-  #ifdef SERIAL_DEBUG
-   tfp_printf("\n\r STM32 based packetizer. \n");
-  #endif
+    #ifdef SERIAL_DEBUG
+        tfp_printf("\n\r STM32 based packetizer. \n");
+    #endif
 
+    /* Set up PWM for brushless motor ESC control */
+    InitializeTimer(PWM_PERIOD);
+    InitializePWMChannel(pulse_width);
+    Delay(1200);			// pwm startup delay ()
 
-	/* Configure the photo sensor pin
-		 in this case we will use PA3 */
-	GPIO_InitTypeDef GPIO_InitStruct;
-	GPIO_InitStruct.GPIO_Pin = GPIO_Pin_3|GPIO_Pin_8|GPIO_Pin_10;
-	GPIO_InitStruct.GPIO_Mode = GPIO_Mode_IN;
-	GPIO_InitStruct.GPIO_OType = GPIO_OType_PP;
-	GPIO_InitStruct.GPIO_Speed = GPIO_Speed_50MHz;
-	GPIO_InitStruct.GPIO_PuPd = GPIO_PuPd_UP;
-	GPIO_Init(GPIOA, &GPIO_InitStruct);
-
-	/* Set up PWM for brushless motor ESC control */
-
-	InitializeTimer(PWM_PERIOD);
-	InitializePWMChannel(pulse_width);
-	Delay(1200);			// pwm startup delay ()
-	
-	SetPWMPulsewidth(PWM_PULSE_MAX);
+    SetPWMPulsewidth(PWM_PULSE_MAX);
     Delay(2000);
-    
+
     SetPWMPulsewidth(PWM_PULSE_MIN);
     Delay(2000);
 
-	pulse_width = pulse_width + 185;
-	SetPWMPulsewidth(pulse_width);
+    pulse_width = pulse_width + 185;
+    SetPWMPulsewidth(pulse_width);
 
-  //GPIO_ResetBits(GPIOA, GPIO_Pin_3);    // set it
+    //GPIO_ResetBits(GPIOA, GPIO_Pin_3);    // set it
 
     /* check if any packet received */
-//    if (ETH_CheckFrameReceived()) {
-      /* process received ethernet packet */
-//      LwIP_Pkt_Handle();
-//    }
+    //if (ETH_CheckFrameReceived()) {
+        /* process received ethernet packet */
+    //    LwIP_Pkt_Handle();
+    //}
+    
     /* handle periodic timers for LwIP */
-//    LwIP_Periodic_Handle(LocalTime);
+    //LwIP_Periodic_Handle(LocalTime);
 
-//    if (Button_State()) {
-      /*connect to udp server */
-//      udp_echoclient_connect();
-//    }
+    //if (Button_State()) {
+        /*connect to udp server */
+    //    udp_echoclient_connect();
+    //}
 
-      // GPIOD-PIN-15 ON
-/*
-      if(col==0)
+    // GPIOD-PIN-15 ON
+    /*
+    if(col==0)
         Pov_Send_Column(&img[0]);
-      if(col==1)
+    if(col==1)
         Pov_Send_Column(g);
-      if(col==2)
+    if(col==2)
         Pov_Send_Column(b);
-      if(col==3)
+    if(col==3)
         Pov_Send_Column(d);
-      col=(col+1) & 3;
+    col=(col+1) & 3;
 
-      col += 12;
-      if(col >= sizeof(img))
-        col = 0;
-*/
+    col += 12;
+    if(col >= sizeof(img))
+        col = 0;  */
+    
 
-RPS=0;
+    RPS=0;
 
-img = demo_img;
-// sel_img = 4;
-/* img = logo_img; */
-sel_img = 1;
-col_per_frame=1;
+    img = demo_img;
+    // sel_img = 4;
+    /* img = logo_img; */
+    sel_img = 1;
+    col_per_frame=1;
 
-STM_EVAL_LEDOn(LED4);
+    STM_EVAL_LEDOn(LED4);
 
-/* Infinite loop */
-while (1)
-{
+    /* Infinite loop */
+    while (1)
+    {
 
-/*  Direct trigger */
-  while(GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_3)==0)
-        ;
+        /*  Direct trigger */
+        while(GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_3) == 0);
 
-	while(GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_3)==1)
-	      ;
+        while(GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_3) == 1);
+        
 
-      STM_EVAL_LEDOn(LED6);
+        STM_EVAL_LEDOn(LED6);
 
-      for(col=0; col<IMAGE_SIZE; col+=IMAGE_Y/8)
-      {
-       Pov_Send_Column(&img[col]);
+        for(col = 0; col < IMAGE_SIZE; col += IMAGE_Y / 8)
+        {
+            Pov_Send_Column(&img[col]);
+            delayUS_ASM(COLUMN_DELAY);
+        }
+        
+        Pov_Send_Column(black);
 
-       delayUS_ASM(COLUMN_DELAY);
-      }
-      Pov_Send_Column(black);
+        if(GPIO_ReadInputDataBit(USER_BUTTON_GPIO_PORT, USER_BUTTON_PIN))		// image selection
+        {
+            switch(sel_img)     // state machine
+            {				
+                /*case	5:
+                img = tcom;		// telecom
+                    sel_img = 0;
+                    break;
 
-			if(GPIO_ReadInputDataBit(USER_BUTTON_GPIO_PORT, USER_BUTTON_PIN))		// image selection
-			{
-				switch(sel_img){				// state machine
-/*					case	5:
-					  img = tcom;		// telecom
-						sel_img = 0;
-						break;
+                    case 1:
+                    blue_flag=0;
+                        sel_img=2;
+                        break;
+                    case 2:
+                        sel_img=1;
+                        blue_flag=1;
+                        break;*/
+                
+                case	4:
+                    img = circles2;		// circle
+                        sel_img = 0;
+                        break;
+                case	3:
+                    img = circles;		// circle
+                        sel_img = 4;
+                        break;
+                case	2:
+                    img = x_wing;		// x-wing
+                        sel_img = 3;
+                        break;
+                case	1:
+                    img = bars;			// bars
+                        sel_img = 2;
+                        break;
+                case  0:
+                default:
+                    img = logo_img;		// Ericsson
+                    sel_img = 1;
+            }
+            
+            Delay(200);			// button press delay ()
+        }
 
-						case 1:
-						  blue_flag=0;
-							sel_img=2;
-							break;
-						case 2:
-							sel_img=1;
-							blue_flag=1;
-							break;
-*/
-					case	4:
-					  	img = circles2;		// circle
-							sel_img = 0;
-							break;
-					case	3:
-					  	img = circles;		// circle
-							sel_img = 4;
-							break;
-					case	2:
-						  img = x_wing;		// x-wing
-							sel_img = 3;
-							break;
- 					case	1:
-						  img = bars;			// bars
-							sel_img = 2;
-							break;
-					case  0:
-					default:
-						img = logo_img;		// Ericsson
-						sel_img = 1;
-				}
-				Delay(200);			// button press delay ()
-			}
-
-      STM_EVAL_LEDOff(LED6);
+        STM_EVAL_LEDOff(LED6);
+        
+        USART_puts(UART4, "Hello World!\n");
     }
 }
+
 
 /**
   * @brief  Button state.
@@ -1628,32 +1720,34 @@ while (1)
   */
 uint8_t Button_State(void)
 {
-  uint8_t state = GPIO_ReadInputDataBit(USER_BUTTON_GPIO_PORT, USER_BUTTON_PIN);
+    uint8_t state = GPIO_ReadInputDataBit(USER_BUTTON_GPIO_PORT, USER_BUTTON_PIN);
 
-  switch(Button_Flag) {
+    switch(Button_Flag) {
     case 0:
-      if (state) {
+        if (state) {
         Button_Flag = 1;
         Button_TimerBack = LocalTime;
-      }
-      state = 0;
-      break;
-    case 1:
-      if ((state) && ((LocalTime - Button_TimerBack) >= 40)) {
-        Button_Flag = 2;
-      } else {
+        }
         state = 0;
-      }
-      break;
+        break;
+    case 1:
+        if ((state) && ((LocalTime - Button_TimerBack) >= 40)) {
+        Button_Flag = 2;
+        } else {
+        state = 0;
+        }
+        break;
     default:
-      if (state == 0) {
+        if (state == 0) {
         Button_Flag = 0;
-      }
-      state = 0;
-      break;
-  }
-  return state;
+        }
+        state = 0;
+        break;
+    }
+    return state;
 }
+
+
 /**
   * @brief  Inserts a delay time.
   * @param  nCount: number of 10ms periods to wait for.
@@ -1661,12 +1755,13 @@ uint8_t Button_State(void)
   */
 void Delay(uint32_t nCount)
 {
-  /* Capture the current local time */
-  timingdelay = LocalTime + nCount;
+    /* Capture the current local time */
+    timingdelay = LocalTime + nCount;
 
-  /* wait until the desired delay finish */
-  while (timingdelay > LocalTime);
+    /* wait until the desired delay finish */
+    while (timingdelay > LocalTime);
 }
+
 
 /**
   * @brief  Updates the system local time
@@ -1675,14 +1770,16 @@ void Delay(uint32_t nCount)
   */
 void Time_Update(void)
 {
-  LocalTime += SYSTEMTICK_PERIOD_MS;
+    LocalTime += SYSTEMTICK_PERIOD_MS;
 
-	if(LocalTime >= NextSec){
-			RPM = RPS ;//* 60;
-			RPS = 0;
-			NextSec = LocalTime + 6000;
-	}
+    if(LocalTime >= NextSec)
+    {
+            RPM = RPS ;//* 60;
+            RPS = 0;
+            NextSec = LocalTime + 6000;
+    }
 }
+
 
 /**
   * @brief  Initializes the STM324xG-EVAL's LCD and LEDs resources.
@@ -1691,40 +1788,58 @@ void Time_Update(void)
   */
 void LCD_LED_BUTTON_Init(void)
 {
-  //Enable the GPIOD Clock
+    //Enable the GPIOD Clock
     RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOD,ENABLE);
 
-  // GPIOD Configuration
+    // GPIOD Configuration
     STM_EVAL_LEDInit(LED6);
 
 
 
-#ifdef USE_LCD
-  /* Initialize the STM324xG-EVAL's LCD */
-  STM32f4_Discovery_LCD_Init();
-#endif
+    #ifdef USE_LCD
+    /* Initialize the STM324xG-EVAL's LCD */
+    STM32f4_Discovery_LCD_Init();
+    #endif
 
-#ifdef USE_LCD
-  /* Clear the LCD */
-  LCD_Clear(Black);
+    #ifdef USE_LCD
+    /* Clear the LCD */
+    LCD_Clear(Black);
 
-  /* Set the LCD Back Color */
-  LCD_SetBackColor(Black);
+    /* Set the LCD Back Color */
+    LCD_SetBackColor(Black);
 
-  /* Set the LCD Text Color */
-  LCD_SetTextColor(White);
+    /* Set the LCD Text Color */
+    LCD_SetTextColor(White);
 
-  /* Display message on the LCD*/
-  LCD_DisplayStringLine(Line0, (uint8_t*)MESSAGE1);
-  LCD_DisplayStringLine(Line1, (uint8_t*)MESSAGE2);
-  LCD_DisplayStringLine(Line2, (uint8_t*)MESSAGE3);
-  LCD_DisplayStringLine(Line3, (uint8_t*)MESSAGE4);
-#endif
-  STM_EVAL_PBInit(BUTTON_USER, BUTTON_MODE_EXTI);
+    /* Display message on the LCD*/
+    LCD_DisplayStringLine(Line0, (uint8_t*)MESSAGE1);
+    LCD_DisplayStringLine(Line1, (uint8_t*)MESSAGE2);
+    LCD_DisplayStringLine(Line2, (uint8_t*)MESSAGE3);
+    LCD_DisplayStringLine(Line3, (uint8_t*)MESSAGE4);
+    #endif
+
+    STM_EVAL_PBInit(BUTTON_USER, BUTTON_MODE_EXTI);
 }
 
-#ifdef  USE_FULL_ASSERT
 
+/**
+  * @brief  The function send string using the selected USART (1, 2, 3, 4)
+  * @param  USARTx: the used USART
+  * @param  str: contains the string which will be send
+  * @retval None
+  */
+void USART_puts(USART_TypeDef *USARTx, volatile char *str)
+{
+	while(*str)
+	{
+		while(USART_GetFlagStatus(UART4, USART_FLAG_TC) == RESET);
+		USART_SendData(USARTx, *str);
+		*str++;
+	}
+}
+
+
+#ifdef  USE_FULL_ASSERT
 /**
   * @brief  Reports the name of the source file and the source line number
   *   where the assert_param error has occurred.
@@ -1734,13 +1849,14 @@ void LCD_LED_BUTTON_Init(void)
   */
 void assert_failed(uint8_t* file, uint32_t line)
 {
-  /* User can add his own implementation to report the file name and line number,
-     ex: printf("Wrong parameters value: file %s on line %d\r\n", file, line) */
+    /* User can add his own implementation to report the file name and line number,
+        ex: printf("Wrong parameters value: file %s on line %d\r\n", file, line) */
 
-  /* Infinite loop */
-  while (1)
-  {}
+    /* Infinite loop */
+    while (1)
+    {}
 }
+
 #endif
 
 

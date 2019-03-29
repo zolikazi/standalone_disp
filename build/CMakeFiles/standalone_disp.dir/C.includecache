@@ -1541,6 +1541,8 @@ ethernetif.h
 /home/zolikazi/source/standalone_disp/src/ethernetif.h
 stm32f4xx_tim.h
 /home/zolikazi/source/standalone_disp/src/stm32f4xx_tim.h
+stm32f4xx_usart.h
+/home/zolikazi/source/standalone_disp/src/stm32f4xx_usart.h
 
 /home/zolikazi/source/standalone_disp/src/netconf.c
 lwip/mem.h

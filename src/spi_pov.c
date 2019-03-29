@@ -36,77 +36,77 @@
   */
 void Pov_SPI_Init(void)
 {
-  GPIO_InitTypeDef GPIO_InitStruct;
-	SPI_InitTypeDef SPI_InitStruct;
+    GPIO_InitTypeDef GPIO_InitStruct;
+    SPI_InitTypeDef SPI_InitStruct;
 
-	// enable clock for used IO pins
-  RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOA, ENABLE);
-  RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOB, ENABLE);
-  RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOC, ENABLE);
+    // enable clock for used IO pins
+    RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOA, ENABLE);
+    RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOB, ENABLE);
+    RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOC, ENABLE);
 
-	/* configure pins used by SPI2
-   * PB14 = NSS
-   * PB10 = SCK
-	 * PC2 = MISO
-	 * PC3 = MOSI
-	 */
+    /* configure pins used by SPI2
+    * PB14 = NSS
+    * PB10 = SCK
+    * PC2 = MISO
+    * PC3 = MOSI
+    */
 
-   //GPIO_InitStruct.GPIO_Pin = GPIO_Pin_7 | GPIO_Pin_6 | GPIO_Pin_5;
- 	 GPIO_InitStruct.GPIO_Mode = GPIO_Mode_AF;
- 	 GPIO_InitStruct.GPIO_OType = GPIO_OType_PP;
- 	 GPIO_InitStruct.GPIO_Speed = GPIO_Speed_50MHz;
-   GPIO_InitStruct.GPIO_PuPd  = GPIO_PuPd_UP;
- 	//GPIO_InitStruct.GPIO_PuPd = GPIO_PuPd_NOPULL;
+    //GPIO_InitStruct.GPIO_Pin = GPIO_Pin_7 | GPIO_Pin_6 | GPIO_Pin_5;
+    GPIO_InitStruct.GPIO_Mode = GPIO_Mode_AF;
+    GPIO_InitStruct.GPIO_OType = GPIO_OType_PP;
+    GPIO_InitStruct.GPIO_Speed = GPIO_Speed_50MHz;
+    GPIO_InitStruct.GPIO_PuPd  = GPIO_PuPd_UP;
+    //GPIO_InitStruct.GPIO_PuPd = GPIO_PuPd_NOPULL;
 
-   /*!< SPI SCK pin configuration */
-   RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOB, ENABLE);
-   GPIO_InitStruct.GPIO_Pin = GPIO_Pin_10;
-   GPIO_Init(GPIOB, &GPIO_InitStruct);
+    /*!< SPI SCK pin configuration */
+    RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOB, ENABLE);
+    GPIO_InitStruct.GPIO_Pin = GPIO_Pin_10;
+    GPIO_Init(GPIOB, &GPIO_InitStruct);
 
-   /*!< SPI MISO pin configuration */
-   RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOC, ENABLE);
-   GPIO_InitStruct.GPIO_Pin = GPIO_Pin_2;
-   GPIO_Init(GPIOC, &GPIO_InitStruct);
+    /*!< SPI MISO pin configuration */
+    RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOC, ENABLE);
+    GPIO_InitStruct.GPIO_Pin = GPIO_Pin_2;
+    GPIO_Init(GPIOC, &GPIO_InitStruct);
 
-   /*!< SPI MOSI pin configuration */
-   RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOC, ENABLE);
-   GPIO_InitStruct.GPIO_Pin = GPIO_Pin_3;
-   GPIO_Init(GPIOC, &GPIO_InitStruct);
+    /*!< SPI MOSI pin configuration */
+    RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOC, ENABLE);
+    GPIO_InitStruct.GPIO_Pin = GPIO_Pin_3;
+    GPIO_Init(GPIOC, &GPIO_InitStruct);
 
-   /* Connect alternate function */
-   GPIO_PinAFConfig(GPIOB, GPIO_PinSource10, GPIO_AF_SPI2);
-   GPIO_PinAFConfig(GPIOC, GPIO_PinSource2, GPIO_AF_SPI2);
-   GPIO_PinAFConfig(GPIOC, GPIO_PinSource3, GPIO_AF_SPI2);
+    /* Connect alternate function */
+    GPIO_PinAFConfig(GPIOB, GPIO_PinSource10, GPIO_AF_SPI2);
+    GPIO_PinAFConfig(GPIOC, GPIO_PinSource2, GPIO_AF_SPI2);
+    GPIO_PinAFConfig(GPIOC, GPIO_PinSource3, GPIO_AF_SPI2);
 
-	/* Configure the chip select pin
-	   in this case we will use PB14 */
-	GPIO_InitStruct.GPIO_Pin = GPIO_Pin_14;
-	GPIO_InitStruct.GPIO_Mode = GPIO_Mode_OUT;
-	GPIO_InitStruct.GPIO_OType = GPIO_OType_PP;
-	GPIO_InitStruct.GPIO_Speed = GPIO_Speed_50MHz;
-	GPIO_InitStruct.GPIO_PuPd = GPIO_PuPd_UP;
-	GPIO_Init(GPIOB, &GPIO_InitStruct);
+    /* Configure the chip select pin
+    in this case we will use PB14 */
+    GPIO_InitStruct.GPIO_Pin = GPIO_Pin_14;
+    GPIO_InitStruct.GPIO_Mode = GPIO_Mode_OUT;
+    GPIO_InitStruct.GPIO_OType = GPIO_OType_PP;
+    GPIO_InitStruct.GPIO_Speed = GPIO_Speed_50MHz;
+    GPIO_InitStruct.GPIO_PuPd = GPIO_PuPd_UP;
+    GPIO_Init(GPIOB, &GPIO_InitStruct);
 
-	GPIOB->BSRRL |= GPIO_Pin_14; // set PB14 high
+    GPIOB->BSRRL |= GPIO_Pin_14; // set PB14 high
 
 
-  /* Configure the OE pin
-	   in this case we will use PA5 */
-	GPIO_InitStruct.GPIO_Pin = GPIO_Pin_5;
-	GPIO_InitStruct.GPIO_Mode = GPIO_Mode_OUT;
-	GPIO_InitStruct.GPIO_OType = GPIO_OType_PP;
-	GPIO_InitStruct.GPIO_Speed = GPIO_Speed_50MHz;
-	GPIO_InitStruct.GPIO_PuPd = GPIO_PuPd_UP;
-	GPIO_Init(GPIOA, &GPIO_InitStruct);
+    /* Configure the OE pin
+    in this case we will use PA5 */
+    GPIO_InitStruct.GPIO_Pin = GPIO_Pin_5;
+    GPIO_InitStruct.GPIO_Mode = GPIO_Mode_OUT;
+    GPIO_InitStruct.GPIO_OType = GPIO_OType_PP;
+    GPIO_InitStruct.GPIO_Speed = GPIO_Speed_50MHz;
+    GPIO_InitStruct.GPIO_PuPd = GPIO_PuPd_UP;
+    GPIO_Init(GPIOA, &GPIO_InitStruct);
 
-  GPIO_ResetBits(GPIOA, GPIO_Pin_5);    // set it
+    GPIO_ResetBits(GPIOA, GPIO_Pin_5);    // set it
 
 
 
 	// enable peripheral clock
 	RCC_APB1PeriphClockCmd(RCC_APB1Periph_SPI2, ENABLE);
 
-	/* configure SPI1 in Mode 0
+	/* configure SPI2 in Mode 0
 	 * CPOL = 0 --> clock is low when idle
 	 * CPHA = 0 --> data is sampled at the first edge
 	 */
@@ -120,7 +120,7 @@ void Pov_SPI_Init(void)
 	SPI_InitStruct.SPI_FirstBit = SPI_FirstBit_MSB;// data is transmitted MSB first
 	SPI_Init(SPI2, &SPI_InitStruct);
 
-  SPI_Cmd(SPI2, ENABLE); // enable SPI2}
+    SPI_Cmd(SPI2, ENABLE); // enable SPI2}
 
 }
 
@@ -140,17 +140,17 @@ uint8_t SPI2_send(uint8_t data){
 }
 
 uint8_t Pov_Send_Column(uint8_t data[12]){
-  int i=0;
-  GPIO_ResetBits(GPIOB, GPIO_Pin_14);
+    int i=0;
+    GPIO_ResetBits(GPIOB, GPIO_Pin_14);
 
-  for(i=0; i<12; i++){
-    SPI2_send(data[i]);
-  }
+    for(i=0; i<12; i++){
+        SPI2_send(data[i]);
+    }
 
-  GPIO_SetBits(GPIOB, GPIO_Pin_14);
-  //Delay(1);
-  GPIO_ResetBits(GPIOB, GPIO_Pin_14);
-  return 0;
+    GPIO_SetBits(GPIOB, GPIO_Pin_14);
+    //Delay(1);
+    GPIO_ResetBits(GPIOB, GPIO_Pin_14);
+    return 0;
 }
 
 /******************* (C) COPYRIGHT 2011 STMicroelectronics *****END OF FILE****/
