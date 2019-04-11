@@ -50,40 +50,43 @@ src/packetizer.c
 #***          <GroupName>STM32F4x7_ETH_Driver</GroupName>
  	STM32F4xx_Ethernet_Example/Libraries/STM32F4x7_ETH_Driver/src/stm32f4x7_eth.c
 #***          <GroupName>LWIP</GroupName>
- 	STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/port/STM32F4x7/Standalone/ethernetif.c
- 	STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_lib.c
- 	STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_msg.c
- 	STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/err.c
- 	STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netbuf.c
- 	STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netdb.c
- 	STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netifapi.c
- 	STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/sockets.c
- 	STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/tcpip.c
- 	STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dhcp.c
- 	STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dns.c
- 	STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/init.c
- 	STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/mem.c
- 	STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/memp.c
- 	STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/netif.c
- 	STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/pbuf.c
- 	STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/raw.c
- 	STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/stats.c
- 	STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/sys.c
- 	STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp.c
- 	STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_in.c
- 	STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_out.c
- 	STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/udp.c
- 	STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/autoip.c
- 	STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/icmp.c
- 	STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/igmp.c
- 	STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet.c
- 	STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet_chksum.c
- 	STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip.c
- 	STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_addr.c
- 	STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_frag.c
- 	STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/etharp.c
- 	STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/loopif.c
- 	STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/slipif.c
+ 	STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/port/STM32F4x7/arch/ethernetif.c
+ 	STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_lib.c
+ 	STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_msg.c
+ 	STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/err.c
+ 	STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netbuf.c
+ 	STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netdb.c
+ 	STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netifapi.c
+ 	STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/sockets.c
+ 	STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/tcpip.c
+	STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/def.c
+ 	STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dhcp.c
+ 	STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dns.c
+ 	STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/init.c
+ 	STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/mem.c
+ 	STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/memp.c
+ 	STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/netif.c
+	STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/packet.c
+ 	STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/pbuf.c
+ 	STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/raw.c
+ 	STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/stats.c
+ 	STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/sys.c
+ 	STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp.c
+ 	STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_in.c
+ 	STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_out.c
+	STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/timers.c
+ 	STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/udp.c
+ 	STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/autoip.c
+ 	STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/icmp.c
+ 	STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/igmp.c
+ 	STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet.c
+ 	STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet_chksum.c
+ 	STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip.c
+ 	STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_addr.c
+ 	STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_frag.c
+ 	STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/etharp.c
+ 	STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/loopif.c
+ 	STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/slipif.c
 
 ##	platform/system_stm32f4xx.c
 	platform/startup_stm32f407xx.s
@@ -95,12 +98,12 @@ target_include_directories(${PROJECT_NAME} PUBLIC STM32F4xx_Ethernet_Example/Lib
 target_include_directories(${PROJECT_NAME} PUBLIC STM32F4xx_Ethernet_Example/Libraries/STM32F4x7_ETH_Driver/inc)
 target_include_directories(${PROJECT_NAME} PUBLIC STM32F4xx_Ethernet_Example/Libraries/STM32F4xx_StdPeriph_Driver/inc)
 target_include_directories(${PROJECT_NAME} PUBLIC STM32F4xx_Ethernet_Example/Utilities/STM32F4-Discovery)
-target_include_directories(${PROJECT_NAME} PUBLIC STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/port/STM32F4x7/Standalone)
-target_include_directories(${PROJECT_NAME} PUBLIC STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/port/STM32F4x7)
-target_include_directories(${PROJECT_NAME} PUBLIC STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/include)
-target_include_directories(${PROJECT_NAME} PUBLIC STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/include/ipv4)
-target_include_directories(${PROJECT_NAME} PUBLIC STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/include/lwip)
-target_include_directories(${PROJECT_NAME} PUBLIC STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/include/netif)
+target_include_directories(${PROJECT_NAME} PUBLIC STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/port/STM32F4x7/arch)
+target_include_directories(${PROJECT_NAME} PUBLIC STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/port/STM32F4x7)
+target_include_directories(${PROJECT_NAME} PUBLIC STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/include)
+target_include_directories(${PROJECT_NAME} PUBLIC STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/include/ipv4)
+target_include_directories(${PROJECT_NAME} PUBLIC STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/include/lwip)
+target_include_directories(${PROJECT_NAME} PUBLIC STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/include/netif)
 target_include_directories(${PROJECT_NAME} PUBLIC inc)
 target_include_directories(${PROJECT_NAME} PUBLIC src)
 target_include_directories(${PROJECT_NAME} PUBLIC platform)

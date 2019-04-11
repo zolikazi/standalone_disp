@@ -65,7 +65,7 @@ a lot of data that needs to be copied, this should be set high. */
 #define MEMP_NUM_TCP_SEG        12
 /* MEMP_NUM_SYS_TIMEOUT: the number of simulateously active
    timeouts. */
-#define MEMP_NUM_SYS_TIMEOUT    3
+#define MEMP_NUM_SYS_TIMEOUT    10
 
 
 /* ---------- Pbuf options ---------- */
@@ -74,6 +74,9 @@ a lot of data that needs to be copied, this should be set high. */
 
 /* PBUF_POOL_BUFSIZE: the size of each pbuf in the pbuf pool. */
 #define PBUF_POOL_BUFSIZE       500
+
+/* ---------- PTP options ---------- */
+#define LWIP_PTP		1
 
 
 /* ---------- TCP options ---------- */

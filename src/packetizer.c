@@ -25,6 +25,8 @@
 #include "lwip/pbuf.h"
 #include "lwip/udp.h"
 #include "lwip/tcp.h"
+#include "lwip/def.h"
+//#include "lwip/inet.h"
 #include "netif/etharp.h"
 #include <string.h>
 #include <stdio.h>
@@ -101,7 +103,9 @@ void udp_packetizer_init(){
   vlan->prio_vid = htons(0x800);
 
   //Fill in the IP Header
-  IPH_VHLTOS_SET(iph, 4, IP_HLEN/4, 0x18);
+  //IPH_VHLTOS_SET(iph, 4, IP_HLEN/4, 0x18); /*Old version*/
+  IPH_VHL_SET(iph, 4, IP_HLEN/4);
+  IPH_TOS_SET(iph, 0x18);
   //IPH_LEN_SET(iph, htons(sizeof (struct ip_hdr) + sizeof (struct udp_hdr) + payload_len));
   IPH_ID_SET(iph, 1);
   IPH_OFFSET_SET(iph, 0);

@@ -3,7 +3,7 @@
   * @file    main.c
   * @author  MCD Application Team && Istvan Moldovan && Zoltan Javorszky
   * @version V1.0.0
-  * @date    31-October-2011
+  * @date    07-April-2019
   * @brief   Main program body
   ******************************************************************************
   * @attention
@@ -40,21 +40,24 @@
   ******************************************************************************
   */
 /* Includes ------------------------------------------------------------------*/
+#include <stdio.h>
 #include "stm32f4x7_eth.h"
 #include "netconf.h"
 #include "serial_debug.h"
 //#include "tinyprintf.h"
 #include "main.h"
 #include "spi_pov.h"
-#include "lwip/tcp.h"
+#include "lwip/tcp_impl.h"
+#include "lwip/timers.h"
+#include "lwip/packet.h"
 #include "packetizer.h"
 #include "ethernetif.h"
 #include "stm32f4xx_tim.h"
 #include "stm32f4xx_usart.h"
 
-#define	IMAGE_Y 			96
-#define IMAGE_X				154
-#define IMAGE_SIZE          IMAGE_X*IMAGE_Y/8
+#define	IMAGE_Y         96
+#define IMAGE_X         154
+#define IMAGE_SIZE      IMAGE_X*IMAGE_Y/8
 
 
 uint8_t d[12]={0xF0, 0x0F, 0x00, 0xF0, 0x0F, 0x00, 0x55, 0x00, 0xAA, 0x55, 0xAA, 0x55};
@@ -1339,6 +1342,14 @@ uint8_t b[12]="DDDDDDDDDDDD";
 /* Private variables ---------------------------------------------------------*/
 __IO uint32_t LocalTime = 0; /* this variable is used to create a time reference incremented by 10ms */
 uint32_t timingdelay;
+
+extern volatile uint32_t *pSysTickCount;
+static uint32_t ptptime_curr = 0;
+static uint32_t ptptime_prev = 0;
+static uint32_t round_time_curr = 0;
+static uint32_t round_time_prev = 0;
+//static char uart_msg[255];
+
 uint32_t Button_TimerBack;
 __IO uint32_t Button_Flag;
 
@@ -1350,6 +1361,11 @@ __IO uint32_t NextSec = 0; /* this variable is used to measure seconds */
 void LCD_LED_BUTTON_Init(void);
 uint8_t Button_State(void);
 void USART_puts(USART_TypeDef *USARTx, volatile char *str);
+
+extern u32_t ETH_PTPSubSecond2NanoSecond(u32_t SubSecondValue);
+
+void SysTick_Init(void);
+void SysTick_Handler(void);
 
 
 #define PWM_PERIOD      20000
@@ -1381,7 +1397,7 @@ void InitializeGpio(void)
 
 
 /**
-  * @brief  TIM3 timer initialization function
+  * @brief  TIM3 timer initialization function for PWM
   * @param  period: timer period in usec
   * @retval None
   */
@@ -1444,6 +1460,108 @@ void SetPWMPulsewidth(int width)
 }
 
 
+// Test function to initialize the GPIO pin as input
+/* Configure pins to be interrupts */
+/* Infra gate connect: red - 3V, brown - PA3, black - ground */
+void Configure_PA3(void) {
+	/* Set variables used */
+	GPIO_InitTypeDef GPIO_InitStruct;
+	EXTI_InitTypeDef EXTI_InitStruct;
+	NVIC_InitTypeDef NVIC_InitStruct;
+
+	/* Enable clock for GPIOA */
+	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOA, ENABLE);
+	/* Enable clock for SYSCFG */
+	RCC_APB2PeriphClockCmd(RCC_APB2Periph_SYSCFG, ENABLE);
+
+	/* Set pin as input */
+	GPIO_InitStruct.GPIO_Mode = GPIO_Mode_IN;
+	GPIO_InitStruct.GPIO_OType = GPIO_OType_OD;
+	GPIO_InitStruct.GPIO_Pin = GPIO_Pin_3;
+	GPIO_InitStruct.GPIO_PuPd = GPIO_PuPd_UP;
+	GPIO_InitStruct.GPIO_Speed = GPIO_Speed_50MHz;
+	GPIO_Init(GPIOA, &GPIO_InitStruct);
+
+	/* Tell system that you will use PD0 for EXTI_Line0 */
+	SYSCFG_EXTILineConfig(EXTI_PortSourceGPIOA, EXTI_PinSource3);
+
+	/* PD0 is connected to EXTI_Line0 */
+	EXTI_InitStruct.EXTI_Line = EXTI_Line3;
+	/* Enable interrupt */
+	EXTI_InitStruct.EXTI_LineCmd = ENABLE;
+	/* Interrupt mode */
+	EXTI_InitStruct.EXTI_Mode = EXTI_Mode_Interrupt;
+	/* Triggers on rising and falling edge */
+	/* The opto-gate rises when obstructed */
+	EXTI_InitStruct.EXTI_Trigger = EXTI_Trigger_Rising;
+	/* Add to EXTI */
+	EXTI_Init(&EXTI_InitStruct);
+
+	/* Add IRQ vector to NVIC */
+	/* PD0 is connected to EXTI_Line0, which has EXTI0_IRQn vector */
+	NVIC_InitStruct.NVIC_IRQChannel = EXTI3_IRQn;
+	/* Set priority */
+	NVIC_InitStruct.NVIC_IRQChannelPreemptionPriority = 0x00;
+	/* Set sub priority */
+	NVIC_InitStruct.NVIC_IRQChannelSubPriority = 0x00;
+	/* Enable interrupt */
+	NVIC_InitStruct.NVIC_IRQChannelCmd = ENABLE;
+	/* Add to NVIC */
+	NVIC_Init(&NVIC_InitStruct);
+}
+
+
+/* Handle PA3 interrupt */
+void EXTI3_IRQHandler(void) {
+
+	/* Check if interrupt flag is set */
+	if (EXTI_GetITStatus(EXTI_Line3) != RESET) {
+//		setTime(&clock);
+        
+        //ptptime_prev = ptptime_curr;
+        //ptptime_curr = *pSysTickCount;
+        
+        //round_time_curr = ptptime_curr - ptptime_prev;
+        
+        /*if((round_time_curr - round_time_prev) > 20 || (round_time_curr - round_time_prev) < -20)*/
+
+        
+            //sprintf(uart_msg, "Period time is: %ld nsec\r\n", round_time_curr);
+            //USART_puts(UART4, uart_msg);
+
+        //round_time_prev = round_time_curr;
+
+		/*getTime(&internal);															// get current time
+		subTime(&meas_period, &clock, &internal);				// calculate measured period
+		clock = internal;*/
+
+//		printf("T: %d\n", meas_period.nanoseconds);
+		
+		/*if(int_cnt < 25)
+		{
+			// Do stuff when PA3 is changed
+			addTime(&avg_period, &avg_period, &meas_period);
+			int_cnt++;
+		}
+		else{
+			if(start_counting == 1){
+				int_cnt = 0;
+				start_counting = 0;
+			} 
+			else 
+				start_counting = 2;
+		}*/
+		//printf("Time of interrupt = %d.%09d sec\n", internal.seconds, internal.nanoseconds);
+		//addTime(&clock, &clock, &period);
+		//setTime(&clock);
+		//printf("Set time to %d.%09d sec\n", clock.seconds, clock.nanoseconds);
+		
+		/* Clear interrupt flag */
+		EXTI_ClearITPendingBit(EXTI_Line3);
+	}
+}
+
+
 /**
   * @brief  USART and interrupt initialization 
   * @param  None
@@ -1474,7 +1592,7 @@ void InitializeUsart(void)
 	GPIO_PinAFConfig(GPIOC, GPIO_PinSource10, GPIO_AF_UART4);/* UART4_TX */
     GPIO_PinAFConfig(GPIOC, GPIO_PinSource11, GPIO_AF_UART4);/* UART4_RX */
     
-    //serial communication controls
+    //serial communication controls --> lehet, hogy ennyi is elég
 	USART_InitStructure.USART_BaudRate = 9600;
 	USART_InitStructure.USART_WordLength = USART_WordLength_8b;
 	USART_InitStructure.USART_StopBits = USART_StopBits_1;
@@ -1524,6 +1642,11 @@ int main(void)
      */
 
     struct pbuf *frame;
+    //struct ptptime_t *ptptime;
+    
+    uint32_t timeNanosec = ETH_PTPSubSecond2NanoSecond(ETH_GetPTPRegister(ETH_PTPTSLR));
+    uint32_t timeSec = ETH_GetPTPRegister(ETH_PTPTSHR);
+    
     uint8_t data[1500];
 
     //  int i=0, j=0;
@@ -1532,6 +1655,12 @@ int main(void)
     int col_per_frame=1;
     int recvd = 0;
     int pulse_width = PWM_PULSE;
+    
+    char uart_msg[255];
+    
+    /*uint32_t ptptime_curr;
+    uint32_t ptptime_prev;
+    uint32_t round_time;*/
 
 
     #ifdef SERIAL_DEBUG
@@ -1540,6 +1669,8 @@ int main(void)
 
     int r=0;
     int blue_flag=0;
+    
+    SysTick_Init();
 
     /*Initialize LCD and Leds */
     LCD_LED_BUTTON_Init();
@@ -1557,7 +1688,11 @@ int main(void)
 
     /* USART initialization*/
     InitializeUsart();
+    
+    /* Initialize PTP */
 
+    //ptptime_curr = ETH_PTPSubSecond2NanoSecond(ETH_GetPTPRegister(ETH_PTPTSLR));
+    //ptptime_prev = 0;
     /*
     //uint8_t tmp;
     while(1){
@@ -1590,14 +1725,14 @@ int main(void)
     InitializePWMChannel(pulse_width);
     Delay(1200);			// pwm startup delay ()
 
-    SetPWMPulsewidth(PWM_PULSE_MAX);
-    Delay(2000);
+   /* SetPWMPulsewidth(PWM_PULSE_MAX);
+    Delay(1000);
 
     SetPWMPulsewidth(PWM_PULSE_MIN);
-    Delay(2000);
+    Delay(1000);*/
 
     pulse_width = pulse_width + 185;
-    SetPWMPulsewidth(pulse_width);
+//    SetPWMPulsewidth(pulse_width);
 
     //GPIO_ResetBits(GPIOA, GPIO_Pin_3);    // set it
 
@@ -1650,6 +1785,10 @@ int main(void)
         while(GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_3) == 0);
 
         while(GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_3) == 1);
+        
+        /*ptptime_prev = ptptime_curr;
+        ptptime_curr = htonl(ETH_PTPSubSecond2NanoSecond(ETH_GetPTPRegister(ETH_PTPTSLR)));
+        round_time = ptptime_curr - ptptime_prev;*/
         
 
         STM_EVAL_LEDOn(LED6);
@@ -1707,7 +1846,30 @@ int main(void)
 
         STM_EVAL_LEDOff(LED6);
         
-        USART_puts(UART4, "Hello World!\n");
+        //sprintf(uart_msg, "Period time is: %ld nsec\r\n", round_time);
+        /*sprintf(uart_msg, "Local time is: %ld microsec\r\n", *pSysTickCount);
+        
+        USART_puts(UART4, uart_msg);*/
+        
+        
+        
+        /*ptptime_prev = ptptime_curr;
+        ptptime_curr = *pSysTickCount;
+        
+        round_time_curr = ptptime_curr - ptptime_prev;        
+
+        
+        sprintf(uart_msg, "Period time is: %ld microsec\r\n", round_time_curr);
+        USART_puts(UART4, uart_msg);
+
+        round_time_prev = round_time_curr;*/
+        
+        /* Sendig local time */
+        timeNanosec = ETH_PTPSubSecond2NanoSecond(ETH_GetPTPRegister(ETH_PTPTSLR));
+        timeSec = ETH_GetPTPRegister(ETH_PTPTSHR);
+        
+        sprintf(uart_msg, "Local time is: %ld.%ld sec\r\n", timeSec, timeNanosec);
+        USART_puts(UART4, uart_msg);
     }
 }
 
@@ -1836,6 +1998,18 @@ void USART_puts(USART_TypeDef *USARTx, volatile char *str)
 		USART_SendData(USARTx, *str);
 		*str++;
 	}
+}
+
+
+void SysTick_Init(void) {
+	/****************************************
+	 *SystemFrequency/1000      1ms         *
+	 *SystemFrequency/100000    10us        *
+	 *SystemFrequency/1000000   1us         *
+	 *****************************************/
+	while (SysTick_Config(SystemCoreClock / 1000000) != 0) {
+	} // One SysTick interrupt now equals 1us
+
 }
 
 

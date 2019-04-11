@@ -609,825 +609,897 @@ CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/STM32F4x7_ET
 CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/STM32F4x7_ETH_Driver/src/stm32f4x7_eth.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/STM32F4x7_ETH_Driver/src/stm32f4x7_eth.c.o
 
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/port/STM32F4x7/Standalone/ethernetif.c.o: CMakeFiles/standalone_disp.dir/flags.make
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/port/STM32F4x7/Standalone/ethernetif.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/port/STM32F4x7/Standalone/ethernetif.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/port/STM32F4x7/Standalone/ethernetif.c.o"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/port/STM32F4x7/Standalone/ethernetif.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/port/STM32F4x7/Standalone/ethernetif.c
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/port/STM32F4x7/arch/ethernetif.c.o: CMakeFiles/standalone_disp.dir/flags.make
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/port/STM32F4x7/arch/ethernetif.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/port/STM32F4x7/arch/ethernetif.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/port/STM32F4x7/arch/ethernetif.c.o"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/port/STM32F4x7/arch/ethernetif.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/port/STM32F4x7/arch/ethernetif.c
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/port/STM32F4x7/Standalone/ethernetif.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/port/STM32F4x7/Standalone/ethernetif.c.i"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/port/STM32F4x7/Standalone/ethernetif.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/port/STM32F4x7/Standalone/ethernetif.c.i
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/port/STM32F4x7/arch/ethernetif.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/port/STM32F4x7/arch/ethernetif.c.i"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/port/STM32F4x7/arch/ethernetif.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/port/STM32F4x7/arch/ethernetif.c.i
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/port/STM32F4x7/Standalone/ethernetif.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/port/STM32F4x7/Standalone/ethernetif.c.s"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/port/STM32F4x7/Standalone/ethernetif.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/port/STM32F4x7/Standalone/ethernetif.c.s
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/port/STM32F4x7/arch/ethernetif.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/port/STM32F4x7/arch/ethernetif.c.s"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/port/STM32F4x7/arch/ethernetif.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/port/STM32F4x7/arch/ethernetif.c.s
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/port/STM32F4x7/Standalone/ethernetif.c.o.requires:
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/port/STM32F4x7/arch/ethernetif.c.o.requires:
 
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/port/STM32F4x7/Standalone/ethernetif.c.o.requires
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/port/STM32F4x7/arch/ethernetif.c.o.requires
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/port/STM32F4x7/Standalone/ethernetif.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/port/STM32F4x7/Standalone/ethernetif.c.o.requires
-	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/port/STM32F4x7/Standalone/ethernetif.c.o.provides.build
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/port/STM32F4x7/Standalone/ethernetif.c.o.provides
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/port/STM32F4x7/arch/ethernetif.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/port/STM32F4x7/arch/ethernetif.c.o.requires
+	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/port/STM32F4x7/arch/ethernetif.c.o.provides.build
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/port/STM32F4x7/arch/ethernetif.c.o.provides
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/port/STM32F4x7/Standalone/ethernetif.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/port/STM32F4x7/Standalone/ethernetif.c.o
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/port/STM32F4x7/arch/ethernetif.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/port/STM32F4x7/arch/ethernetif.c.o
 
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_lib.c.o: CMakeFiles/standalone_disp.dir/flags.make
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_lib.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_lib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_lib.c.o"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_lib.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_lib.c
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_lib.c.o: CMakeFiles/standalone_disp.dir/flags.make
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_lib.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_lib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_lib.c.o"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_lib.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_lib.c
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_lib.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_lib.c.i"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_lib.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_lib.c.i
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_lib.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_lib.c.i"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_lib.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_lib.c.i
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_lib.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_lib.c.s"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_lib.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_lib.c.s
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_lib.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_lib.c.s"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_lib.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_lib.c.s
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_lib.c.o.requires:
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_lib.c.o.requires:
 
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_lib.c.o.requires
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_lib.c.o.requires
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_lib.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_lib.c.o.requires
-	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_lib.c.o.provides.build
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_lib.c.o.provides
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_lib.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_lib.c.o.requires
+	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_lib.c.o.provides.build
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_lib.c.o.provides
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_lib.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_lib.c.o
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_lib.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_lib.c.o
 
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_msg.c.o: CMakeFiles/standalone_disp.dir/flags.make
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_msg.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_msg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_msg.c.o"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_msg.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_msg.c
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_msg.c.o: CMakeFiles/standalone_disp.dir/flags.make
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_msg.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_msg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_msg.c.o"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_msg.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_msg.c
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_msg.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_msg.c.i"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_msg.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_msg.c.i
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_msg.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_msg.c.i"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_msg.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_msg.c.i
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_msg.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_msg.c.s"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_msg.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_msg.c.s
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_msg.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_msg.c.s"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_msg.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_msg.c.s
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_msg.c.o.requires:
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_msg.c.o.requires:
 
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_msg.c.o.requires
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_msg.c.o.requires
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_msg.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_msg.c.o.requires
-	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_msg.c.o.provides.build
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_msg.c.o.provides
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_msg.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_msg.c.o.requires
+	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_msg.c.o.provides.build
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_msg.c.o.provides
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_msg.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_msg.c.o
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_msg.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_msg.c.o
 
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/err.c.o: CMakeFiles/standalone_disp.dir/flags.make
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/err.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/err.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/err.c.o"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/err.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/err.c
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/err.c.o: CMakeFiles/standalone_disp.dir/flags.make
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/err.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/err.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/err.c.o"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/err.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/err.c
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/err.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/err.c.i"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/err.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/err.c.i
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/err.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/err.c.i"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/err.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/err.c.i
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/err.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/err.c.s"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/err.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/err.c.s
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/err.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/err.c.s"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/err.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/err.c.s
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/err.c.o.requires:
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/err.c.o.requires:
 
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/err.c.o.requires
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/err.c.o.requires
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/err.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/err.c.o.requires
-	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/err.c.o.provides.build
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/err.c.o.provides
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/err.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/err.c.o.requires
+	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/err.c.o.provides.build
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/err.c.o.provides
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/err.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/err.c.o
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/err.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/err.c.o
 
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netbuf.c.o: CMakeFiles/standalone_disp.dir/flags.make
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netbuf.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netbuf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netbuf.c.o"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netbuf.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netbuf.c
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netbuf.c.o: CMakeFiles/standalone_disp.dir/flags.make
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netbuf.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netbuf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netbuf.c.o"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netbuf.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netbuf.c
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netbuf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netbuf.c.i"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netbuf.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netbuf.c.i
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netbuf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netbuf.c.i"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netbuf.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netbuf.c.i
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netbuf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netbuf.c.s"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netbuf.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netbuf.c.s
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netbuf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netbuf.c.s"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netbuf.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netbuf.c.s
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netbuf.c.o.requires:
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netbuf.c.o.requires:
 
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netbuf.c.o.requires
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netbuf.c.o.requires
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netbuf.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netbuf.c.o.requires
-	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netbuf.c.o.provides.build
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netbuf.c.o.provides
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netbuf.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netbuf.c.o.requires
+	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netbuf.c.o.provides.build
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netbuf.c.o.provides
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netbuf.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netbuf.c.o
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netbuf.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netbuf.c.o
 
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netdb.c.o: CMakeFiles/standalone_disp.dir/flags.make
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netdb.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netdb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netdb.c.o"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netdb.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netdb.c
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netdb.c.o: CMakeFiles/standalone_disp.dir/flags.make
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netdb.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netdb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netdb.c.o"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netdb.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netdb.c
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netdb.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netdb.c.i"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netdb.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netdb.c.i
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netdb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netdb.c.i"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netdb.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netdb.c.i
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netdb.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netdb.c.s"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netdb.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netdb.c.s
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netdb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netdb.c.s"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netdb.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netdb.c.s
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netdb.c.o.requires:
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netdb.c.o.requires:
 
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netdb.c.o.requires
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netdb.c.o.requires
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netdb.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netdb.c.o.requires
-	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netdb.c.o.provides.build
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netdb.c.o.provides
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netdb.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netdb.c.o.requires
+	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netdb.c.o.provides.build
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netdb.c.o.provides
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netdb.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netdb.c.o
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netdb.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netdb.c.o
 
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netifapi.c.o: CMakeFiles/standalone_disp.dir/flags.make
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netifapi.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netifapi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netifapi.c.o"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netifapi.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netifapi.c
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netifapi.c.o: CMakeFiles/standalone_disp.dir/flags.make
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netifapi.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netifapi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netifapi.c.o"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netifapi.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netifapi.c
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netifapi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netifapi.c.i"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netifapi.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netifapi.c.i
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netifapi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netifapi.c.i"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netifapi.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netifapi.c.i
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netifapi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netifapi.c.s"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netifapi.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netifapi.c.s
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netifapi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netifapi.c.s"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netifapi.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netifapi.c.s
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netifapi.c.o.requires:
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netifapi.c.o.requires:
 
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netifapi.c.o.requires
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netifapi.c.o.requires
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netifapi.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netifapi.c.o.requires
-	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netifapi.c.o.provides.build
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netifapi.c.o.provides
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netifapi.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netifapi.c.o.requires
+	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netifapi.c.o.provides.build
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netifapi.c.o.provides
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netifapi.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netifapi.c.o
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netifapi.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netifapi.c.o
 
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/sockets.c.o: CMakeFiles/standalone_disp.dir/flags.make
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/sockets.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/sockets.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/sockets.c.o"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/sockets.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/sockets.c
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/sockets.c.o: CMakeFiles/standalone_disp.dir/flags.make
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/sockets.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/sockets.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/sockets.c.o"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/sockets.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/sockets.c
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/sockets.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/sockets.c.i"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/sockets.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/sockets.c.i
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/sockets.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/sockets.c.i"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/sockets.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/sockets.c.i
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/sockets.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/sockets.c.s"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/sockets.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/sockets.c.s
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/sockets.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/sockets.c.s"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/sockets.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/sockets.c.s
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/sockets.c.o.requires:
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/sockets.c.o.requires:
 
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/sockets.c.o.requires
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/sockets.c.o.requires
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/sockets.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/sockets.c.o.requires
-	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/sockets.c.o.provides.build
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/sockets.c.o.provides
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/sockets.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/sockets.c.o.requires
+	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/sockets.c.o.provides.build
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/sockets.c.o.provides
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/sockets.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/sockets.c.o
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/sockets.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/sockets.c.o
 
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/tcpip.c.o: CMakeFiles/standalone_disp.dir/flags.make
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/tcpip.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/tcpip.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/tcpip.c.o"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/tcpip.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/tcpip.c
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/tcpip.c.o: CMakeFiles/standalone_disp.dir/flags.make
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/tcpip.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/tcpip.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/tcpip.c.o"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/tcpip.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/tcpip.c
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/tcpip.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/tcpip.c.i"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/tcpip.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/tcpip.c.i
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/tcpip.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/tcpip.c.i"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/tcpip.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/tcpip.c.i
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/tcpip.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/tcpip.c.s"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/tcpip.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/tcpip.c.s
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/tcpip.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/tcpip.c.s"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/tcpip.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/tcpip.c.s
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/tcpip.c.o.requires:
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/tcpip.c.o.requires:
 
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/tcpip.c.o.requires
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/tcpip.c.o.requires
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/tcpip.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/tcpip.c.o.requires
-	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/tcpip.c.o.provides.build
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/tcpip.c.o.provides
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/tcpip.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/tcpip.c.o.requires
+	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/tcpip.c.o.provides.build
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/tcpip.c.o.provides
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/tcpip.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/tcpip.c.o
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/tcpip.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/tcpip.c.o
 
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dhcp.c.o: CMakeFiles/standalone_disp.dir/flags.make
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dhcp.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dhcp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dhcp.c.o"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dhcp.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dhcp.c
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/def.c.o: CMakeFiles/standalone_disp.dir/flags.make
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/def.c.o: ../STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/def.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/def.c.o"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/def.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/def.c
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dhcp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dhcp.c.i"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dhcp.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dhcp.c.i
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/def.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/def.c.i"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/def.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/def.c.i
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dhcp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dhcp.c.s"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dhcp.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dhcp.c.s
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/def.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/def.c.s"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/def.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/def.c.s
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dhcp.c.o.requires:
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/def.c.o.requires:
 
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dhcp.c.o.requires
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/def.c.o.requires
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dhcp.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dhcp.c.o.requires
-	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dhcp.c.o.provides.build
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dhcp.c.o.provides
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/def.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/def.c.o.requires
+	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/def.c.o.provides.build
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/def.c.o.provides
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dhcp.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dhcp.c.o
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/def.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/def.c.o
 
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dns.c.o: CMakeFiles/standalone_disp.dir/flags.make
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dns.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dns.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dns.c.o"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dns.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dns.c
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dhcp.c.o: CMakeFiles/standalone_disp.dir/flags.make
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dhcp.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dhcp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dhcp.c.o"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dhcp.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dhcp.c
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dns.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dns.c.i"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dns.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dns.c.i
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dhcp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dhcp.c.i"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dhcp.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dhcp.c.i
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dns.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dns.c.s"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dns.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dns.c.s
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dhcp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dhcp.c.s"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dhcp.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dhcp.c.s
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dns.c.o.requires:
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dhcp.c.o.requires:
 
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dns.c.o.requires
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dhcp.c.o.requires
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dns.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dns.c.o.requires
-	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dns.c.o.provides.build
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dns.c.o.provides
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dhcp.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dhcp.c.o.requires
+	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dhcp.c.o.provides.build
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dhcp.c.o.provides
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dns.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dns.c.o
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dhcp.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dhcp.c.o
 
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/init.c.o: CMakeFiles/standalone_disp.dir/flags.make
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/init.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/init.c.o"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/init.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/init.c
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dns.c.o: CMakeFiles/standalone_disp.dir/flags.make
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dns.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dns.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dns.c.o"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dns.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dns.c
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/init.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/init.c.i"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/init.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/init.c.i
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dns.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dns.c.i"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dns.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dns.c.i
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/init.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/init.c.s"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/init.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/init.c.s
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dns.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dns.c.s"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dns.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dns.c.s
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/init.c.o.requires:
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dns.c.o.requires:
 
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/init.c.o.requires
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dns.c.o.requires
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/init.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/init.c.o.requires
-	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/init.c.o.provides.build
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/init.c.o.provides
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dns.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dns.c.o.requires
+	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dns.c.o.provides.build
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dns.c.o.provides
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/init.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/init.c.o
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dns.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dns.c.o
 
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/mem.c.o: CMakeFiles/standalone_disp.dir/flags.make
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/mem.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/mem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/mem.c.o"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/mem.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/mem.c
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/init.c.o: CMakeFiles/standalone_disp.dir/flags.make
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/init.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/init.c.o"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/init.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/init.c
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/mem.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/mem.c.i"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/mem.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/mem.c.i
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/init.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/init.c.i"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/init.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/init.c.i
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/mem.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/mem.c.s"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/mem.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/mem.c.s
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/init.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/init.c.s"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/init.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/init.c.s
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/mem.c.o.requires:
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/init.c.o.requires:
 
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/mem.c.o.requires
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/init.c.o.requires
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/mem.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/mem.c.o.requires
-	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/mem.c.o.provides.build
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/mem.c.o.provides
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/init.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/init.c.o.requires
+	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/init.c.o.provides.build
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/init.c.o.provides
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/mem.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/mem.c.o
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/init.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/init.c.o
 
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/memp.c.o: CMakeFiles/standalone_disp.dir/flags.make
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/memp.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/memp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/memp.c.o"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/memp.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/memp.c
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/mem.c.o: CMakeFiles/standalone_disp.dir/flags.make
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/mem.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/mem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/mem.c.o"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/mem.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/mem.c
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/memp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/memp.c.i"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/memp.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/memp.c.i
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/mem.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/mem.c.i"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/mem.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/mem.c.i
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/memp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/memp.c.s"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/memp.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/memp.c.s
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/mem.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/mem.c.s"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/mem.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/mem.c.s
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/memp.c.o.requires:
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/mem.c.o.requires:
 
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/memp.c.o.requires
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/mem.c.o.requires
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/memp.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/memp.c.o.requires
-	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/memp.c.o.provides.build
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/memp.c.o.provides
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/mem.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/mem.c.o.requires
+	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/mem.c.o.provides.build
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/mem.c.o.provides
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/memp.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/memp.c.o
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/mem.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/mem.c.o
 
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/netif.c.o: CMakeFiles/standalone_disp.dir/flags.make
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/netif.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/netif.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/netif.c.o"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/netif.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/netif.c
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/memp.c.o: CMakeFiles/standalone_disp.dir/flags.make
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/memp.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/memp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/memp.c.o"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/memp.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/memp.c
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/netif.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/netif.c.i"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/netif.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/netif.c.i
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/memp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/memp.c.i"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/memp.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/memp.c.i
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/netif.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/netif.c.s"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/netif.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/netif.c.s
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/memp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/memp.c.s"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/memp.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/memp.c.s
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/netif.c.o.requires:
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/memp.c.o.requires:
 
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/netif.c.o.requires
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/memp.c.o.requires
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/netif.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/netif.c.o.requires
-	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/netif.c.o.provides.build
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/netif.c.o.provides
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/memp.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/memp.c.o.requires
+	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/memp.c.o.provides.build
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/memp.c.o.provides
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/netif.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/netif.c.o
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/memp.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/memp.c.o
 
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/pbuf.c.o: CMakeFiles/standalone_disp.dir/flags.make
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/pbuf.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/pbuf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/pbuf.c.o"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/pbuf.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/pbuf.c
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/netif.c.o: CMakeFiles/standalone_disp.dir/flags.make
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/netif.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/netif.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/netif.c.o"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/netif.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/netif.c
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/pbuf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/pbuf.c.i"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/pbuf.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/pbuf.c.i
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/netif.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/netif.c.i"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/netif.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/netif.c.i
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/pbuf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/pbuf.c.s"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/pbuf.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/pbuf.c.s
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/netif.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/netif.c.s"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/netif.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/netif.c.s
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/pbuf.c.o.requires:
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/netif.c.o.requires:
 
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/pbuf.c.o.requires
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/netif.c.o.requires
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/pbuf.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/pbuf.c.o.requires
-	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/pbuf.c.o.provides.build
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/pbuf.c.o.provides
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/netif.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/netif.c.o.requires
+	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/netif.c.o.provides.build
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/netif.c.o.provides
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/pbuf.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/pbuf.c.o
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/netif.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/netif.c.o
 
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/raw.c.o: CMakeFiles/standalone_disp.dir/flags.make
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/raw.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/raw.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/raw.c.o"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/raw.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/raw.c
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/packet.c.o: CMakeFiles/standalone_disp.dir/flags.make
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/packet.c.o: ../STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/packet.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/packet.c.o"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/packet.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/packet.c
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/raw.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/raw.c.i"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/raw.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/raw.c.i
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/packet.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/packet.c.i"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/packet.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/packet.c.i
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/raw.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/raw.c.s"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/raw.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/raw.c.s
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/packet.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/packet.c.s"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/packet.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/packet.c.s
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/raw.c.o.requires:
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/packet.c.o.requires:
 
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/raw.c.o.requires
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/packet.c.o.requires
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/raw.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/raw.c.o.requires
-	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/raw.c.o.provides.build
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/raw.c.o.provides
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/packet.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/packet.c.o.requires
+	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/packet.c.o.provides.build
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/packet.c.o.provides
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/raw.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/raw.c.o
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/packet.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/packet.c.o
 
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/stats.c.o: CMakeFiles/standalone_disp.dir/flags.make
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/stats.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/stats.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/stats.c.o"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/stats.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/stats.c
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/pbuf.c.o: CMakeFiles/standalone_disp.dir/flags.make
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/pbuf.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/pbuf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/pbuf.c.o"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/pbuf.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/pbuf.c
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/stats.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/stats.c.i"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/stats.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/stats.c.i
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/pbuf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/pbuf.c.i"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/pbuf.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/pbuf.c.i
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/stats.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/stats.c.s"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/stats.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/stats.c.s
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/pbuf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/pbuf.c.s"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/pbuf.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/pbuf.c.s
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/stats.c.o.requires:
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/pbuf.c.o.requires:
 
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/stats.c.o.requires
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/pbuf.c.o.requires
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/stats.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/stats.c.o.requires
-	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/stats.c.o.provides.build
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/stats.c.o.provides
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/pbuf.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/pbuf.c.o.requires
+	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/pbuf.c.o.provides.build
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/pbuf.c.o.provides
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/stats.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/stats.c.o
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/pbuf.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/pbuf.c.o
 
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/sys.c.o: CMakeFiles/standalone_disp.dir/flags.make
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/sys.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/sys.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/sys.c.o"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/sys.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/sys.c
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/raw.c.o: CMakeFiles/standalone_disp.dir/flags.make
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/raw.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/raw.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/raw.c.o"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/raw.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/raw.c
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/sys.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/sys.c.i"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/sys.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/sys.c.i
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/raw.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/raw.c.i"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/raw.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/raw.c.i
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/sys.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/sys.c.s"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/sys.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/sys.c.s
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/raw.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/raw.c.s"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/raw.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/raw.c.s
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/sys.c.o.requires:
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/raw.c.o.requires:
 
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/sys.c.o.requires
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/raw.c.o.requires
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/sys.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/sys.c.o.requires
-	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/sys.c.o.provides.build
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/sys.c.o.provides
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/raw.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/raw.c.o.requires
+	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/raw.c.o.provides.build
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/raw.c.o.provides
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/sys.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/sys.c.o
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/raw.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/raw.c.o
 
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp.c.o: CMakeFiles/standalone_disp.dir/flags.make
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp.c.o"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp.c
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/stats.c.o: CMakeFiles/standalone_disp.dir/flags.make
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/stats.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/stats.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/stats.c.o"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/stats.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/stats.c
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp.c.i"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp.c.i
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/stats.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/stats.c.i"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/stats.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/stats.c.i
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp.c.s"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp.c.s
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/stats.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/stats.c.s"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/stats.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/stats.c.s
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp.c.o.requires:
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/stats.c.o.requires:
 
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp.c.o.requires
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/stats.c.o.requires
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp.c.o.requires
-	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp.c.o.provides.build
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp.c.o.provides
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/stats.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/stats.c.o.requires
+	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/stats.c.o.provides.build
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/stats.c.o.provides
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp.c.o
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/stats.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/stats.c.o
 
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_in.c.o: CMakeFiles/standalone_disp.dir/flags.make
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_in.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_in.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_in.c.o"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_in.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_in.c
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/sys.c.o: CMakeFiles/standalone_disp.dir/flags.make
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/sys.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/sys.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/sys.c.o"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/sys.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/sys.c
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_in.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_in.c.i"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_in.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_in.c.i
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/sys.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/sys.c.i"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/sys.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/sys.c.i
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_in.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_in.c.s"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_in.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_in.c.s
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/sys.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/sys.c.s"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/sys.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/sys.c.s
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_in.c.o.requires:
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/sys.c.o.requires:
 
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_in.c.o.requires
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/sys.c.o.requires
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_in.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_in.c.o.requires
-	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_in.c.o.provides.build
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_in.c.o.provides
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/sys.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/sys.c.o.requires
+	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/sys.c.o.provides.build
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/sys.c.o.provides
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_in.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_in.c.o
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/sys.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/sys.c.o
 
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_out.c.o: CMakeFiles/standalone_disp.dir/flags.make
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_out.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_out.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_out.c.o"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_out.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_out.c
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp.c.o: CMakeFiles/standalone_disp.dir/flags.make
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp.c.o"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp.c
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_out.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_out.c.i"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_out.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_out.c.i
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp.c.i"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp.c.i
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_out.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_out.c.s"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_out.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_out.c.s
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp.c.s"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp.c.s
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_out.c.o.requires:
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp.c.o.requires:
 
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_out.c.o.requires
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp.c.o.requires
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_out.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_out.c.o.requires
-	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_out.c.o.provides.build
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_out.c.o.provides
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp.c.o.requires
+	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp.c.o.provides.build
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp.c.o.provides
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_out.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_out.c.o
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp.c.o
 
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/udp.c.o: CMakeFiles/standalone_disp.dir/flags.make
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/udp.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/udp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/udp.c.o"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/udp.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/udp.c
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_in.c.o: CMakeFiles/standalone_disp.dir/flags.make
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_in.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_in.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_in.c.o"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_in.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_in.c
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/udp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/udp.c.i"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/udp.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/udp.c.i
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_in.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_in.c.i"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_in.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_in.c.i
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/udp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/udp.c.s"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/udp.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/udp.c.s
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_in.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_in.c.s"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_in.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_in.c.s
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/udp.c.o.requires:
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_in.c.o.requires:
 
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/udp.c.o.requires
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_in.c.o.requires
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/udp.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/udp.c.o.requires
-	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/udp.c.o.provides.build
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/udp.c.o.provides
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_in.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_in.c.o.requires
+	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_in.c.o.provides.build
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_in.c.o.provides
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/udp.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/udp.c.o
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_in.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_in.c.o
 
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/autoip.c.o: CMakeFiles/standalone_disp.dir/flags.make
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/autoip.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/autoip.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/autoip.c.o"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/autoip.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/autoip.c
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_out.c.o: CMakeFiles/standalone_disp.dir/flags.make
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_out.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_out.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_out.c.o"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_out.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_out.c
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/autoip.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/autoip.c.i"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/autoip.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/autoip.c.i
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_out.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_out.c.i"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_out.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_out.c.i
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/autoip.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/autoip.c.s"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/autoip.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/autoip.c.s
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_out.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_out.c.s"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_out.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_out.c.s
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/autoip.c.o.requires:
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_out.c.o.requires:
 
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/autoip.c.o.requires
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_out.c.o.requires
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/autoip.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/autoip.c.o.requires
-	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/autoip.c.o.provides.build
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/autoip.c.o.provides
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_out.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_out.c.o.requires
+	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_out.c.o.provides.build
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_out.c.o.provides
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/autoip.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/autoip.c.o
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_out.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_out.c.o
 
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/icmp.c.o: CMakeFiles/standalone_disp.dir/flags.make
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/icmp.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/icmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/icmp.c.o"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/icmp.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/icmp.c
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/timers.c.o: CMakeFiles/standalone_disp.dir/flags.make
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/timers.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/timers.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/timers.c.o"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/timers.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/timers.c
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/icmp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/icmp.c.i"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/icmp.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/icmp.c.i
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/timers.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/timers.c.i"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/timers.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/timers.c.i
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/icmp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/icmp.c.s"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/icmp.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/icmp.c.s
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/timers.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/timers.c.s"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/timers.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/timers.c.s
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/icmp.c.o.requires:
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/timers.c.o.requires:
 
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/icmp.c.o.requires
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/timers.c.o.requires
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/icmp.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/icmp.c.o.requires
-	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/icmp.c.o.provides.build
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/icmp.c.o.provides
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/timers.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/timers.c.o.requires
+	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/timers.c.o.provides.build
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/timers.c.o.provides
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/icmp.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/icmp.c.o
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/timers.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/timers.c.o
 
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/igmp.c.o: CMakeFiles/standalone_disp.dir/flags.make
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/igmp.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/igmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/igmp.c.o"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/igmp.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/igmp.c
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/udp.c.o: CMakeFiles/standalone_disp.dir/flags.make
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/udp.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/udp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/udp.c.o"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/udp.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/udp.c
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/igmp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/igmp.c.i"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/igmp.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/igmp.c.i
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/udp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/udp.c.i"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/udp.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/udp.c.i
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/igmp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/igmp.c.s"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/igmp.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/igmp.c.s
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/udp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/udp.c.s"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/udp.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/udp.c.s
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/igmp.c.o.requires:
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/udp.c.o.requires:
 
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/igmp.c.o.requires
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/udp.c.o.requires
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/igmp.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/igmp.c.o.requires
-	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/igmp.c.o.provides.build
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/igmp.c.o.provides
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/udp.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/udp.c.o.requires
+	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/udp.c.o.provides.build
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/udp.c.o.provides
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/igmp.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/igmp.c.o
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/udp.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/udp.c.o
 
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet.c.o: CMakeFiles/standalone_disp.dir/flags.make
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet.c.o"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet.c
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/autoip.c.o: CMakeFiles/standalone_disp.dir/flags.make
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/autoip.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/autoip.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/autoip.c.o"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/autoip.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/autoip.c
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet.c.i"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet.c.i
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/autoip.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/autoip.c.i"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/autoip.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/autoip.c.i
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet.c.s"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet.c.s
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/autoip.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/autoip.c.s"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/autoip.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/autoip.c.s
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet.c.o.requires:
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/autoip.c.o.requires:
 
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet.c.o.requires
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/autoip.c.o.requires
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet.c.o.requires
-	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet.c.o.provides.build
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet.c.o.provides
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/autoip.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/autoip.c.o.requires
+	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/autoip.c.o.provides.build
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/autoip.c.o.provides
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet.c.o
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/autoip.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/autoip.c.o
 
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet_chksum.c.o: CMakeFiles/standalone_disp.dir/flags.make
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet_chksum.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet_chksum.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet_chksum.c.o"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet_chksum.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet_chksum.c
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/icmp.c.o: CMakeFiles/standalone_disp.dir/flags.make
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/icmp.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/icmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/icmp.c.o"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/icmp.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/icmp.c
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet_chksum.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet_chksum.c.i"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet_chksum.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet_chksum.c.i
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/icmp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/icmp.c.i"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/icmp.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/icmp.c.i
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet_chksum.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet_chksum.c.s"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet_chksum.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet_chksum.c.s
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/icmp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/icmp.c.s"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/icmp.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/icmp.c.s
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet_chksum.c.o.requires:
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/icmp.c.o.requires:
 
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet_chksum.c.o.requires
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/icmp.c.o.requires
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet_chksum.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet_chksum.c.o.requires
-	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet_chksum.c.o.provides.build
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet_chksum.c.o.provides
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/icmp.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/icmp.c.o.requires
+	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/icmp.c.o.provides.build
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/icmp.c.o.provides
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet_chksum.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet_chksum.c.o
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/icmp.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/icmp.c.o
 
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip.c.o: CMakeFiles/standalone_disp.dir/flags.make
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip.c.o"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip.c
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/igmp.c.o: CMakeFiles/standalone_disp.dir/flags.make
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/igmp.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/igmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/igmp.c.o"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/igmp.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/igmp.c
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip.c.i"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip.c.i
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/igmp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/igmp.c.i"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/igmp.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/igmp.c.i
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip.c.s"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip.c.s
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/igmp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/igmp.c.s"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/igmp.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/igmp.c.s
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip.c.o.requires:
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/igmp.c.o.requires:
 
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip.c.o.requires
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/igmp.c.o.requires
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip.c.o.requires
-	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip.c.o.provides.build
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip.c.o.provides
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/igmp.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/igmp.c.o.requires
+	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/igmp.c.o.provides.build
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/igmp.c.o.provides
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip.c.o
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/igmp.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/igmp.c.o
 
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_addr.c.o: CMakeFiles/standalone_disp.dir/flags.make
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_addr.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_addr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_addr.c.o"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_addr.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_addr.c
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet.c.o: CMakeFiles/standalone_disp.dir/flags.make
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet.c.o"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet.c
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_addr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_addr.c.i"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_addr.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_addr.c.i
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet.c.i"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet.c.i
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_addr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_addr.c.s"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_addr.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_addr.c.s
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet.c.s"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet.c.s
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_addr.c.o.requires:
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet.c.o.requires:
 
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_addr.c.o.requires
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet.c.o.requires
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_addr.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_addr.c.o.requires
-	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_addr.c.o.provides.build
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_addr.c.o.provides
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet.c.o.requires
+	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet.c.o.provides.build
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet.c.o.provides
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_addr.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_addr.c.o
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet.c.o
 
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_frag.c.o: CMakeFiles/standalone_disp.dir/flags.make
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_frag.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_frag.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_frag.c.o"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_frag.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_frag.c
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet_chksum.c.o: CMakeFiles/standalone_disp.dir/flags.make
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet_chksum.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet_chksum.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet_chksum.c.o"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet_chksum.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet_chksum.c
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_frag.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_frag.c.i"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_frag.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_frag.c.i
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet_chksum.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet_chksum.c.i"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet_chksum.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet_chksum.c.i
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_frag.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_frag.c.s"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_frag.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_frag.c.s
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet_chksum.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet_chksum.c.s"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet_chksum.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet_chksum.c.s
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_frag.c.o.requires:
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet_chksum.c.o.requires:
 
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_frag.c.o.requires
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet_chksum.c.o.requires
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_frag.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_frag.c.o.requires
-	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_frag.c.o.provides.build
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_frag.c.o.provides
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet_chksum.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet_chksum.c.o.requires
+	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet_chksum.c.o.provides.build
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet_chksum.c.o.provides
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_frag.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_frag.c.o
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet_chksum.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet_chksum.c.o
 
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/etharp.c.o: CMakeFiles/standalone_disp.dir/flags.make
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/etharp.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/etharp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/etharp.c.o"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/etharp.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/etharp.c
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip.c.o: CMakeFiles/standalone_disp.dir/flags.make
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip.c.o"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip.c
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/etharp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/etharp.c.i"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/etharp.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/etharp.c.i
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip.c.i"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip.c.i
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/etharp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/etharp.c.s"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/etharp.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/etharp.c.s
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip.c.s"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip.c.s
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/etharp.c.o.requires:
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip.c.o.requires:
 
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/etharp.c.o.requires
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip.c.o.requires
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/etharp.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/etharp.c.o.requires
-	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/etharp.c.o.provides.build
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/etharp.c.o.provides
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip.c.o.requires
+	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip.c.o.provides.build
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip.c.o.provides
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/etharp.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/etharp.c.o
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip.c.o
 
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/loopif.c.o: CMakeFiles/standalone_disp.dir/flags.make
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/loopif.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/loopif.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/loopif.c.o"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/loopif.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/loopif.c
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_addr.c.o: CMakeFiles/standalone_disp.dir/flags.make
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_addr.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_addr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_addr.c.o"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_addr.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_addr.c
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/loopif.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/loopif.c.i"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/loopif.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/loopif.c.i
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_addr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_addr.c.i"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_addr.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_addr.c.i
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/loopif.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/loopif.c.s"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/loopif.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/loopif.c.s
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_addr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_addr.c.s"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_addr.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_addr.c.s
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/loopif.c.o.requires:
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_addr.c.o.requires:
 
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/loopif.c.o.requires
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_addr.c.o.requires
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/loopif.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/loopif.c.o.requires
-	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/loopif.c.o.provides.build
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/loopif.c.o.provides
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_addr.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_addr.c.o.requires
+	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_addr.c.o.provides.build
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_addr.c.o.provides
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/loopif.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/loopif.c.o
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_addr.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_addr.c.o
 
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/slipif.c.o: CMakeFiles/standalone_disp.dir/flags.make
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/slipif.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/slipif.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/slipif.c.o"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/slipif.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/slipif.c
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_frag.c.o: CMakeFiles/standalone_disp.dir/flags.make
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_frag.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_frag.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_frag.c.o"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_frag.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_frag.c
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/slipif.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/slipif.c.i"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/slipif.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/slipif.c.i
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_frag.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_frag.c.i"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_frag.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_frag.c.i
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/slipif.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/slipif.c.s"
-	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/slipif.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/slipif.c.s
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_frag.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_frag.c.s"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_frag.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_frag.c.s
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/slipif.c.o.requires:
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_frag.c.o.requires:
 
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/slipif.c.o.requires
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_frag.c.o.requires
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/slipif.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/slipif.c.o.requires
-	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/slipif.c.o.provides.build
-.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/slipif.c.o.provides
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_frag.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_frag.c.o.requires
+	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_frag.c.o.provides.build
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_frag.c.o.provides
 
-CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/slipif.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/slipif.c.o
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_frag.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_frag.c.o
+
+
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/etharp.c.o: CMakeFiles/standalone_disp.dir/flags.make
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/etharp.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/etharp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/etharp.c.o"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/etharp.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/etharp.c
+
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/etharp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/etharp.c.i"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/etharp.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/etharp.c.i
+
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/etharp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/etharp.c.s"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/etharp.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/etharp.c.s
+
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/etharp.c.o.requires:
+
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/etharp.c.o.requires
+
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/etharp.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/etharp.c.o.requires
+	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/etharp.c.o.provides.build
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/etharp.c.o.provides
+
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/etharp.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/etharp.c.o
+
+
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/loopif.c.o: CMakeFiles/standalone_disp.dir/flags.make
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/loopif.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/loopif.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/loopif.c.o"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/loopif.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/loopif.c
+
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/loopif.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/loopif.c.i"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/loopif.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/loopif.c.i
+
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/loopif.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/loopif.c.s"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/loopif.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/loopif.c.s
+
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/loopif.c.o.requires:
+
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/loopif.c.o.requires
+
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/loopif.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/loopif.c.o.requires
+	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/loopif.c.o.provides.build
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/loopif.c.o.provides
+
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/loopif.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/loopif.c.o
+
+
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/slipif.c.o: CMakeFiles/standalone_disp.dir/flags.make
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/slipif.c.o: ../STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/slipif.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/slipif.c.o"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/slipif.c.o   -c /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/slipif.c
+
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/slipif.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/slipif.c.i"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/slipif.c > CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/slipif.c.i
+
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/slipif.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/slipif.c.s"
+	arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zolikazi/source/standalone_disp/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/slipif.c -o CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/slipif.c.s
+
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/slipif.c.o.requires:
+
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/slipif.c.o.requires
+
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/slipif.c.o.provides: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/slipif.c.o.requires
+	$(MAKE) -f CMakeFiles/standalone_disp.dir/build.make CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/slipif.c.o.provides.build
+.PHONY : CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/slipif.c.o.provides
+
+CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/slipif.c.o.provides.build: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/slipif.c.o
 
 
 CMakeFiles/standalone_disp.dir/platform/startup_stm32f407xx.s.o: CMakeFiles/standalone_disp.dir/flags.make
 CMakeFiles/standalone_disp.dir/platform/startup_stm32f407xx.s.o: ../platform/startup_stm32f407xx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building ASM object CMakeFiles/standalone_disp.dir/platform/startup_stm32f407xx.s.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building ASM object CMakeFiles/standalone_disp.dir/platform/startup_stm32f407xx.s.o"
 	arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/standalone_disp.dir/platform/startup_stm32f407xx.s.o -c /home/zolikazi/source/standalone_disp/platform/startup_stm32f407xx.s
 
 CMakeFiles/standalone_disp.dir/platform/startup_stm32f407xx.s.o.requires:
@@ -1466,40 +1538,43 @@ standalone_disp_OBJECTS = \
 "CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.c.o" \
 "CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c.o" \
 "CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/STM32F4x7_ETH_Driver/src/stm32f4x7_eth.c.o" \
-"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/port/STM32F4x7/Standalone/ethernetif.c.o" \
-"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_lib.c.o" \
-"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_msg.c.o" \
-"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/err.c.o" \
-"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netbuf.c.o" \
-"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netdb.c.o" \
-"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netifapi.c.o" \
-"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/sockets.c.o" \
-"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/tcpip.c.o" \
-"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dhcp.c.o" \
-"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dns.c.o" \
-"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/init.c.o" \
-"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/mem.c.o" \
-"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/memp.c.o" \
-"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/netif.c.o" \
-"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/pbuf.c.o" \
-"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/raw.c.o" \
-"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/stats.c.o" \
-"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/sys.c.o" \
-"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp.c.o" \
-"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_in.c.o" \
-"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_out.c.o" \
-"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/udp.c.o" \
-"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/autoip.c.o" \
-"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/icmp.c.o" \
-"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/igmp.c.o" \
-"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet.c.o" \
-"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet_chksum.c.o" \
-"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip.c.o" \
-"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_addr.c.o" \
-"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_frag.c.o" \
-"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/etharp.c.o" \
-"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/loopif.c.o" \
-"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/slipif.c.o" \
+"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/port/STM32F4x7/arch/ethernetif.c.o" \
+"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_lib.c.o" \
+"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_msg.c.o" \
+"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/err.c.o" \
+"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netbuf.c.o" \
+"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netdb.c.o" \
+"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netifapi.c.o" \
+"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/sockets.c.o" \
+"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/tcpip.c.o" \
+"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/def.c.o" \
+"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dhcp.c.o" \
+"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dns.c.o" \
+"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/init.c.o" \
+"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/mem.c.o" \
+"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/memp.c.o" \
+"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/netif.c.o" \
+"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/packet.c.o" \
+"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/pbuf.c.o" \
+"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/raw.c.o" \
+"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/stats.c.o" \
+"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/sys.c.o" \
+"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp.c.o" \
+"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_in.c.o" \
+"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_out.c.o" \
+"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/timers.c.o" \
+"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/udp.c.o" \
+"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/autoip.c.o" \
+"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/icmp.c.o" \
+"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/igmp.c.o" \
+"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet.c.o" \
+"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet_chksum.c.o" \
+"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip.c.o" \
+"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_addr.c.o" \
+"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_frag.c.o" \
+"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/etharp.c.o" \
+"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/loopif.c.o" \
+"CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/slipif.c.o" \
 "CMakeFiles/standalone_disp.dir/platform/startup_stm32f407xx.s.o"
 
 # External object files for target standalone_disp
@@ -1528,44 +1603,47 @@ standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libra
 standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.c.o
 standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c.o
 standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/STM32F4x7_ETH_Driver/src/stm32f4x7_eth.c.o
-standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/port/STM32F4x7/Standalone/ethernetif.c.o
-standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_lib.c.o
-standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_msg.c.o
-standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/err.c.o
-standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netbuf.c.o
-standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netdb.c.o
-standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netifapi.c.o
-standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/sockets.c.o
-standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/tcpip.c.o
-standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dhcp.c.o
-standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dns.c.o
-standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/init.c.o
-standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/mem.c.o
-standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/memp.c.o
-standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/netif.c.o
-standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/pbuf.c.o
-standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/raw.c.o
-standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/stats.c.o
-standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/sys.c.o
-standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp.c.o
-standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_in.c.o
-standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_out.c.o
-standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/udp.c.o
-standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/autoip.c.o
-standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/icmp.c.o
-standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/igmp.c.o
-standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet.c.o
-standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet_chksum.c.o
-standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip.c.o
-standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_addr.c.o
-standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_frag.c.o
-standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/etharp.c.o
-standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/loopif.c.o
-standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/slipif.c.o
+standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/port/STM32F4x7/arch/ethernetif.c.o
+standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_lib.c.o
+standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_msg.c.o
+standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/err.c.o
+standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netbuf.c.o
+standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netdb.c.o
+standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netifapi.c.o
+standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/sockets.c.o
+standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/tcpip.c.o
+standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/def.c.o
+standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dhcp.c.o
+standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dns.c.o
+standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/init.c.o
+standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/mem.c.o
+standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/memp.c.o
+standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/netif.c.o
+standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/packet.c.o
+standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/pbuf.c.o
+standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/raw.c.o
+standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/stats.c.o
+standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/sys.c.o
+standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp.c.o
+standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_in.c.o
+standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_out.c.o
+standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/timers.c.o
+standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/udp.c.o
+standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/autoip.c.o
+standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/icmp.c.o
+standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/igmp.c.o
+standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet.c.o
+standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet_chksum.c.o
+standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip.c.o
+standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_addr.c.o
+standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_frag.c.o
+standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/etharp.c.o
+standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/loopif.c.o
+standalone_disp: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/slipif.c.o
 standalone_disp: CMakeFiles/standalone_disp.dir/platform/startup_stm32f407xx.s.o
 standalone_disp: CMakeFiles/standalone_disp.dir/build.make
 standalone_disp: CMakeFiles/standalone_disp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Linking C executable standalone_disp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zolikazi/source/standalone_disp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Linking C executable standalone_disp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/standalone_disp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1596,40 +1674,43 @@ CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4x
 CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_syscfg.c.o.requires
 CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_tim.c.o.requires
 CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/STM32F4x7_ETH_Driver/src/stm32f4x7_eth.c.o.requires
-CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/port/STM32F4x7/Standalone/ethernetif.c.o.requires
-CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_lib.c.o.requires
-CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/api_msg.c.o.requires
-CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/err.c.o.requires
-CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netbuf.c.o.requires
-CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netdb.c.o.requires
-CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/netifapi.c.o.requires
-CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/sockets.c.o.requires
-CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/api/tcpip.c.o.requires
-CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dhcp.c.o.requires
-CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/dns.c.o.requires
-CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/init.c.o.requires
-CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/mem.c.o.requires
-CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/memp.c.o.requires
-CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/netif.c.o.requires
-CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/pbuf.c.o.requires
-CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/raw.c.o.requires
-CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/stats.c.o.requires
-CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/sys.c.o.requires
-CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp.c.o.requires
-CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_in.c.o.requires
-CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/tcp_out.c.o.requires
-CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/udp.c.o.requires
-CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/autoip.c.o.requires
-CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/icmp.c.o.requires
-CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/igmp.c.o.requires
-CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet.c.o.requires
-CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/inet_chksum.c.o.requires
-CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip.c.o.requires
-CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_addr.c.o.requires
-CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/core/ipv4/ip_frag.c.o.requires
-CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/etharp.c.o.requires
-CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/loopif.c.o.requires
-CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip_v1.3.2/src/netif/slipif.c.o.requires
+CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/port/STM32F4x7/arch/ethernetif.c.o.requires
+CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_lib.c.o.requires
+CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/api_msg.c.o.requires
+CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/err.c.o.requires
+CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netbuf.c.o.requires
+CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netdb.c.o.requires
+CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/netifapi.c.o.requires
+CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/sockets.c.o.requires
+CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/api/tcpip.c.o.requires
+CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/def.c.o.requires
+CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dhcp.c.o.requires
+CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/dns.c.o.requires
+CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/init.c.o.requires
+CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/mem.c.o.requires
+CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/memp.c.o.requires
+CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/netif.c.o.requires
+CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Libraries/lwip-1.4.1/src/core/packet.c.o.requires
+CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/pbuf.c.o.requires
+CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/raw.c.o.requires
+CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/stats.c.o.requires
+CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/sys.c.o.requires
+CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp.c.o.requires
+CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_in.c.o.requires
+CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/tcp_out.c.o.requires
+CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/timers.c.o.requires
+CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/udp.c.o.requires
+CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/autoip.c.o.requires
+CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/icmp.c.o.requires
+CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/igmp.c.o.requires
+CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet.c.o.requires
+CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/inet_chksum.c.o.requires
+CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip.c.o.requires
+CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_addr.c.o.requires
+CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/core/ipv4/ip_frag.c.o.requires
+CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/etharp.c.o.requires
+CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/loopif.c.o.requires
+CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/STM32F4xx_Ethernet_Example/Utilities/lwip-1.4.1/src/netif/slipif.c.o.requires
 CMakeFiles/standalone_disp.dir/requires: CMakeFiles/standalone_disp.dir/platform/startup_stm32f407xx.s.o.requires
 
 .PHONY : CMakeFiles/standalone_disp.dir/requires

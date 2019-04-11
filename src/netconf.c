@@ -42,7 +42,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "lwip/mem.h"
 #include "lwip/memp.h"
-#include "lwip/tcp.h"
+#include "lwip/tcp_impl.h"
 #include "lwip/udp.h"
 #include "netif/etharp.h"
 #include "lwip/dhcp.h"

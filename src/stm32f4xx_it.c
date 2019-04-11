@@ -52,7 +52,8 @@
 /* Private define ------------------------------------------------------------*/
 /* Private macro -------------------------------------------------------------*/
 /* Private variables ---------------------------------------------------------*/
-
+static __IO uint32_t sysTickCounter = 0;
+volatile uint32_t *pSysTickCount = &sysTickCounter;
 
 /* Private function prototypes -----------------------------------------------*/
 /* Private functions ---------------------------------------------------------*/
@@ -157,6 +158,7 @@ void SysTick_Handler(void)
 {
   /* Update the LocalTime by adding SYSTEMTICK_PERIOD_MS each SysTick interrupt */
   Time_Update();
+  sysTickCounter++;
 }
 
 /******************************************************************************/
